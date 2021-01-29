@@ -1,0 +1,8 @@
+jQuery(document).ready(function($){
+$( "select.remotetrad-block" ).change(function () {
+	if($( "select option:selected" ).val() != 0)
+	{
+    self.location=$( "select option:selected" ).val();
+	}
+  });
+});

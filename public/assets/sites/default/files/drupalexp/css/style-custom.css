@@ -1,0 +1,732 @@
+/*Fieldset WEBFORM*/
+.fieldset-legend {
+font-family: 'Orkney Regular', sans-serif;
+font-size:1em;
+font-weight:bold;
+}
+.fieldset-description {
+font-size:0.9375rem;
+font-family: 'Orkney Medium', sans-serif;
+font-style:italic;
+}
+/*RESULTAT WEBFORM*/
+.links {
+    margin: 20px auto;
+    text-align: center;
+}
+
+/*BUG PUCE DANS SLIDER*/
+.actus_slider-items .content_them-list li:not(:last-child)::after{
+display:none;	
+}
+/*BOUTONS*/
+.c-wysiwyg .bouton_niv1{
+white-space: normal;
+height: auto;
+}
+/*TABLEAUX*/
+.c-wysiwyg table tbody tr td{
+font-family: 'Orkney Regular', sans-serif;
+}
+/*GRAS DANS LISTES A PUCES*/
+.c-wysiwyg ul li strong { 
+font-weight: 900!important; 
+}
+
+/*SLIDERS*/
+.poster-image {
+  max-height:364px!important;
+}
+/*OFFRES AZUR*/
+p.views-label {
+  color:#287DE9;
+  font-weight: bold;
+}
+.view-offres-azur .ui-widget{
+  font-family: "Open Sans";
+}
+h3.views-accordion-offres_azur-page-header{
+  font-family: "Open Sans";
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.liste-offres .ui-state-default{
+  background: #FFF;
+  border-bottom: 1px solid #aaa;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 15px 0px;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+  position: relative;
+  top: 50%;
+  margin-top: 8px;
+  float: right;
+}
+.ui-icon-triangle-1-e {
+  background-position:-48px -192px;
+}
+.ui-icon-triangle-1-s {
+  background-position:-64px -192px;
+}
+.ui-accordion .ui-accordion-icons{
+  padding-left:0;
+}
+a.btn_offres{
+  color: #fff;
+  background-color: #287DE9;
+  padding: 10px 15px;
+  margin-top: 10px;
+}
+a.btn_offres:hover{
+  color: #287DE9;
+  background-color: #FFF;
+  border: 1px solid #287DE9;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+a.btn_offres_spontanee {
+    font-size: 14px!important;
+}
+}
+a.btn_offres_spontanee {
+    color: #fff;
+    background-color: #287DE9;
+    padding: 20px 15px;
+    margin: 50px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+a.btn_offres_spontanee:hover{
+  color: #287DE9;
+  background-color: #FFF;
+  border: 1px solid #287DE9;
+}
+input#edit-submit-offres-azur.btn.form-submit{
+   color: #fff;
+   background-color: #287DE9;
+   margin-top: 30px;
+   padding:0.69em;
+}
+input#edit-submit-offres-azur.btn.form-submit:hover{
+  color: #287DE9;
+  background-color: #FFF;
+  border: 1px solid #287DE9;
+}
+select#edit-filiere,select#edit-cat{
+  padding:0.69em;
+}
+
+
+input#edit-submit-offres-azur-feeds.btn.form-submit{
+   color: #fff;
+   background-color: #287DE9;
+   margin-top: 30px;
+   padding:0.69em;
+}
+input#edit-submit-offres-azur-feeds.btn.form-submit:hover{
+  color: #287DE9;
+  background-color: #FFF;
+  border: 1px solid #287DE9;
+}
+
+select#edit-field-filieresoffres-value,select#edit-field-categorie-value{
+  padding:0.69em;
+}
+
+select#edit-filiere, select#edit-cat {
+    padding: 0.69em;
+}
+
+select#edit-field-filieresoffres-value,
+select#edit-field-categorie-value,
+select#edit-field-domaine-offre-tid{
+  padding:0.69em;
+}
+
+#views-exposed-form-offres-azur-feeds-default .views-exposed-widget {
+
+    width: 45%;
+    margin: 5px;
+    display: inline-table;
+    float: none !important;
+
+}
+#views-exposed-form-offres-azur-feeds-default .views-exposed-widget select {
+
+    width: 80%;
+
+}
+
+@media screen and (max-width: 600px) {
+	#views-exposed-form-offres-azur-feeds-default .views-exposed-widget {
+
+    width: 95%;
+	}
+}
+
+
+.view-offres-azur-d-tails,.view-offres-azur-d-tails h2{
+  font-family: "Open Sans";
+}
+div.views-field.views-field-text-12{
+  margin-top: 20px;
+}
+/*FORMULAIRE POSTULER*/
+form#webform-client-form-4274,form#webform-client-form-4274 h1,form#webform-client-form-4274 h2{
+  font-family:"Open Sans";
+}
+/* input#edit-submitted-curriculum-vitae-upload-button--2,input.btn.form-submit.ajax-processed{
+  display:none!important;
+}
+input#edit-submitted-lettre-de-motivation-upload-button--2,input.btn.form-submit.ajax-processed{
+  display:none!important;
+} */
+input.webform-next.button-primary.btn.form-submit,input.webform-previous.btn.form-submit,input.webform-submit.button-primary.btn.form-submit{
+  color: #fff;
+  background-color: #287DE9;
+}
+input.webform-next.button-primary.btn.form-submit:hover,input.webform-previous.btn.form-submit:hover,input.webform-submit.button-primary.btn.form-submit:hover{
+  color: #287DE9;
+  background-color: #FFF;
+  border: 1px solid #287DE9;
+}
+input.webform-previous.btn.form-submit{
+  margin-right: 32px;
+}
+/*RECHERCHE INTITULE*/
+/* span.field-content span,input#edit-titre.form-text{
+  text-transform: lowercase;
+} */
+/*FIN OFFRES AZUR*/
+
+/*SLIDE INACTIVE*/
+.slide_inactive{
+  display: none!important;
+}
+
+/*TWITTER IFRAME*/
+#brand{
+  display: none!important;
+}
+
+/*TITRES SINISTRES*/
+.titre_sinistres {
+color:#787E6c;
+text-transform:uppercase;
+font-weight: 600;
+}
+.titre_sinistres_social {
+color:#fa7268;
+text-transform:uppercase;
+font-weight: 600;
+}
+
+/*STYLES LISTES PHARES*/
+.phare:before {
+content: url('/sites/default/files/pictos/icons8-lighthouse-100.png')!important;
+}
+
+/*STYLES LISTES*/
+ul.list-1, ul.list-2, ul.list-3, ul.list-4 {
+padding: 0 0 5px 0;
+}
+/*STYLES TITRES DANS ONGLETS*/
+.tab-content .clearfix {
+height:5px;
+}
+.brd-headling {
+margin:0;
+}
+/* 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:800,900');
+ */
+/* custom icons font-awesome */
+
+/* @font-face {
+  font-family: 'FontAwesome';
+  src: url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+.fa-map::before {
+	content: "\f279";
+}
+
+.btnhugh {
+ /* background: #2c96c7;
+  background-image: -webkit-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: -moz-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: -ms-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: -o-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: linear-gradient(to bottom, #2c96c7, #2980b9);*/
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: helvetica,Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 22px 42px 22px 42px;
+  text-decoration: none;
+}
+
+.btnhugh:hover {
+ /* background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+  text-decoration: none;
+}
+
+.print-content .col-md-9.radix-layouts-content.panel-panel {
+    width: 100% !important;
+}
+
+
+.print-content .radix-layouts-sidebar, .print-content #widgets-element-widgets_service_links-default, .print-links {
+    display: none !important;
+}
+
+
+/* popup newsletter */
+
+
+#popup-announcement-wrap {
+    background: #0073be none repeat scroll 0 0;
+    color: #fff;
+}
+
+#popup-announcement a {
+    color: #fff;
+	font-weight:600;
+}
+
+#popup-announcement > div {
+    line-height: normal;
+    text-align: center;
+}
+
+#popup-announcement-close,#popup-announcement-close:hover {
+    background: url("images/fermer.png");
+	}
+
+	#popup-announcement input.email {
+    color: #1168ac;
+    font-family: "Open Sans";
+    font-size: 1em;
+    text-align: center;
+	width: 80%;
+    display: inline-block;
+}
+
+#popup-announcement {
+    padding: 0px !important;
+}
+
+/* style bouton culture */
+body.culture .form-submit {
+background: #F04E98  none repeat scroll 0 0;
+color: #fff;
+}
+
+body.not-logged-in #widgets-element-service_links_printmail {
+    display: none;
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie ANIMAUX */
+body.sportsloisirs #section-header .container .row, body.mer .hgradient, body.sportsloisirs .pane-plain-box-home-page h2,
+.tag60.hgradient {
+background: linear-gradient(to right, #02B5A6 0%, #01E5D3 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie MER */
+body.sportsloisirs #section-header .container .row, body.mer .hgradient, body.sportsloisirs .pane-plain-box-home-page h2,
+.tag46.hgradient {
+background: linear-gradient(to right, #5eb8db 0%, #62c9cc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie living marseille */
+.tag47.hgradient {
+background: linear-gradient(to right, #b540f8 0%, #8b24c6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie mpsport2017*/
+.tag48.hgradient {
+background: linear-gradient(to right, #1168AC 0%, #008ED3 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style page presse bloc droite */
+.pane-plain-box-home-page .epresse h4{
+color: #FFF;
+}
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie eservices*/
+.tag49.hgradient {
+background: linear-gradient(to right, #01489C 0%, #0569E4 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie noel*/
+.tag50.hgradient {
+background: linear-gradient(to right, #B98937 0%, #F0BE42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style couleur culture */
+body.culture #section-header .container .row, body.culture .hgradient, body.culture .pane-plain-box-home-page h2, .tag19.hgradient {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #E00893  0%, #F04E98 100%) repeat scroll 0 0;
+}
+body.culture .pane-plain-box-home-page .pane-content {
+    background: #E00893 none repeat scroll 0 0;
+    border-color: #E00893 !important;
+}
+body.culture .region-top button[type="submit"] {
+    background: #E00893 none repeat scroll 0 0 !important;
+    border: 0 none !important;
+}
+
+body.culture .region-top input[name="search_block_form"] {
+    border-color: #E00893 !important;
+}
+body.culture .region-socials .block .content .social-icons a, body.culture .home-icon a {
+    background: #E00893 none repeat scroll 0 0 !important;
+}
+body.culture #section-tagline, body.culture .view-fil-info .bx-wrapper .bx-controls-direction a {
+    background: #E00893 none repeat scroll 0 0 !important;
+}
+body.culture .region-extra-bottom .block:nth-child(1) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #E00893 0%, #E31594 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.culture .region-extra-bottom .block:nth-child(2) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #E31594 0%, #E72895 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.culture .region-extra-bottom .block:nth-child(3) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #E72895 0%, #EA3496 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.culture .region-extra-bottom .block:nth-child(4) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #EA3496 0%, #EE4697 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.culture .block-remotetrad label::after {
+    background: #E00893 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+
+
+/* newsletter */
+.newsletter-signup {
+    position: fixed;
+    z-index: 1000;
+    background: #277ae9;
+    width: 400px;
+    padding: 10px 20px;
+    color: #fff;
+	right:10%;
+	bottom:-140px;
+}
+
+.newsletter-signup .form-item.form-type-textfield.form-item-mergevars-EMAIL > label {
+    margin-top: 10px;
+}
+.newsletter-signup .newsletter-signup-close {
+    display: table;
+    font-size: 0.9em;
+    float: left;
+	cursor:pointer;
+}
+
+.newsletter-signup .newsletter-signup-closeall {
+	font-size: 0.9em;
+    float: right;
+	cursor:pointer;
+}
+
+.newsletter-signup .form-item.form-type-textfield.form-item-mergevars-EMAIL {
+    margin: 0;
+}
+.newsletter-signup #edit-mergevars-email {
+    float: left;
+}
+
+.newsletter-signup #edit-mergevars-email {
+    float: left;
+}
+
+.newsletter-signup #edit-submit {
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+.newsletter-signup #edit-actions {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+/* custom icons font-awesome */
+
+/* @font-face {
+  font-family: 'FontAwesome';
+  src: url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.eot?v=4.4.0');
+  src: url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('http://fontawesome.io/assets/font-awesome/fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+} */
+.fa-map::before {
+	content: "\f279";
+}
+
+.btnhugh {
+ /* background: #2c96c7;
+  background-image: -webkit-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: -moz-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: -ms-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: -o-linear-gradient(top, #2c96c7, #2980b9);
+  background-image: linear-gradient(to bottom, #2c96c7, #2980b9);*/
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: helvetica,Arial, sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 22px 42px 22px 42px;
+  text-decoration: none;
+}
+
+.btnhugh:hover {
+ /* background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);*/
+  text-decoration: none;
+}
+
+.print-content .col-md-9.radix-layouts-content.panel-panel {
+    width: 100% !important;
+}
+
+
+.print-content .radix-layouts-sidebar, .print-content #widgets-element-widgets_service_links-default, .print-links {
+    display: none !important;
+}
+
+
+/* popup newsletter */
+
+
+#popup-announcement-wrap {
+    background: #0073be none repeat scroll 0 0;
+    color: #fff;
+}
+
+#popup-announcement a {
+    color: #fff;
+	font-weight:600;
+}
+
+#popup-announcement > div {
+    line-height: normal;
+    text-align: center;
+}
+
+#popup-announcement-close,#popup-announcement-close:hover {
+    background: url("images/fermer.png");
+	}
+
+	#popup-announcement input.email {
+    color: #1168ac;
+    font-family: "Open Sans";
+    font-size: 1em;
+    text-align: center;
+	width: 80%;
+    display: inline-block;
+}
+
+#popup-announcement {
+    padding: 0px !important;
+}
+
+/* style bouton culture */
+body.culture .form-submit {
+background: #F04E98  none repeat scroll 0 0;
+color: #fff;
+}
+
+body.not-logged-in #widgets-element-service_links_printmail {
+    display: none;
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie MER */
+body.sportsloisirs #section-header .container .row, body.mer .hgradient, body.sportsloisirs .pane-plain-box-home-page h2,
+.tag46.hgradient {
+background: linear-gradient(to right, #5eb8db 0%, #62c9cc 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie living marseille */
+.tag47.hgradient {
+background: linear-gradient(to right, #b540f8 0%, #8b24c6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie mpsport2017*/
+.tag48.hgradient {
+background: linear-gradient(to right, #1168AC 0%, #008ED3 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style page presse bloc droite */
+.pane-plain-box-home-page .epresse h4{
+color: #FFF;
+}
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie eservices*/
+.tag49.hgradient {
+background: linear-gradient(to right, #01489C 0%, #0569E4 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+/* style bulle catÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬ ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¾Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬ ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©gorie noel*/
+.tag50.hgradient {
+background: linear-gradient(to right, #B98937 0%, #F0BE42 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+/* style couleur social */
+/*HEADER*/
+body.social #section-header .container .row, body.social .hgradient, body.social .pane-plain-box-home-page h2 {
+    background: linear-gradient(to right, #fa7268  0%, #f6a1a0 100%) repeat scroll 0 0!important;
+}
+body.social .pane-plain-box-home-page .pane-content {
+    background: #fa7268 none repeat scroll 0 0!important;
+    border-color: #fa7268 !important;
+}
+body.social .region-top button[type="submit"] {
+    background: #fa7268 none repeat scroll 0 0 !important;
+    border: 0 none !important;
+}
+body.social .region-top input[name="search_block_form"] {
+    border-color: #fa7268 !important;
+}
+body.social .region-socials .block .content .social-icons a, body.social .home-icon a {
+    background: #fa7268 none repeat scroll 0 0 !important;
+}
+body.social #section-tagline, body.social .view-fil-info .bx-wrapper .bx-controls-direction a {
+    background: #fa7268 none repeat scroll 0 0 !important;
+}
+/*MENU SOCIAL*/
+body.social #section-header .dexp-dropdown > ul > li.active ,
+body.social #section-header .dexp-dropdown > ul > li:hover ,
+body.social #section-header .dexp-dropdown > ul > li:hover > a,
+body.social #section-header .dexp-dropdown > ul > li.active > a ,
+body.social #section-header .dexp-dropdown ul ul li a.active:hover,
+body.social #section-header .dexp-dropdown ul ul li:hover,
+body.social #section-header .dexp-dropdown ul ul li.active,
+body.social #section-header .dexp-dropdown ul ul li a.active
+{
+  background-color: #f6a1a0;
+}
+body.social #section-header .dexp-dropdown ul ul li{
+  background: #fa7268;
+}
+/*Style bulle social*/
+.tag32.hgradient {
+    background: linear-gradient(to right, #fa7268  0%, #f6a1a0 100%) repeat scroll 0 0!important;
+}
+/*FOOTER SOCIAL*/
+body.social .region-extra-bottom .block:nth-child(1) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #fa7268 0%, #f6a1a0 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.social .region-extra-bottom .block:nth-child(2) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f6a1a0 0%, #fa7268 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.social .region-extra-bottom .block:nth-child(3) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #fa7268 0%, #f6a1a0 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.social .region-extra-bottom .block:nth-child(4) .dexp-shortcodes-box.box-circle .box-icon {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #f6a1a0 0%, #fa7268 100%) repeat scroll 0 0;
+    border: 0 none;
+}
+body.social .block-remotetrad label::after {
+    background: #fa7268 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+/*LISTES SOCIAL*/
+body.social .list-1 li::before, body.social .list-2 li::before, body.social .list-3 li::before, body.social .list-4 li::before,body.social .pane-page-title .pane-content H2 {
+    color: #fa7268;
+}
+
+/* newsletter */
+.newsletter-signup {
+    position: fixed;
+    z-index: 1000;
+    background: #277ae9;
+    width: 400px;
+    padding: 10px 20px;
+    color: #fff;
+	right:10%;
+	bottom:-140px;
+}
+
+.newsletter-signup .form-item.form-type-textfield.form-item-mergevars-EMAIL > label {
+    margin-top: 10px;
+}
+.newsletter-signup .newsletter-signup-close {
+    display: table;
+    font-size: 0.9em;
+    float: left;
+	cursor:pointer;
+}
+
+.newsletter-signup .newsletter-signup-closeall {
+	font-size: 0.9em;
+    float: right;
+	cursor:pointer;
+}
+
+.newsletter-signup .form-item.form-type-textfield.form-item-mergevars-EMAIL {
+    margin: 0;
+}
+.newsletter-signup #edit-mergevars-email {
+    float: left;
+}
+
+.newsletter-signup #edit-mergevars-email {
+    float: left;
+}
+
+.newsletter-signup #edit-submit {
+    vertical-align: middle;
+    line-height: 26px;
+}
+
+.newsletter-signup #edit-actions {
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 450px) {
+.isotope-element {
+    padding: 0px;
+}
+
+.caption-image img {
+
+    width: 100% !important;
+
+}
+}
+
+/*ONGLETS*/
+.dexp_tab_wrapper .nav-tabs li a {
+  padding:0 15px;
+}
+
+/*BOUTONS*/
+a.dexp-shortcodes-button.btn {
+  padding: 8px 16px!important;
+}

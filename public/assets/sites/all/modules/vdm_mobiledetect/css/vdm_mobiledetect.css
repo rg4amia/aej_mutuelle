@@ -1,0 +1,49 @@
+#app-bar {
+	font-weight:300;
+	width: 100%;
+	background: #fff;
+	padding:10px;
+	text-align:center;
+	 -moz-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+	margin-bottom: 15px;
+	height:110px;
+	display:table
+}
+#app-bar #applogo {
+
+}
+#app-close {
+    line-height: 90px;
+    padding: 0 10px 0 0;
+	cursor:pointer;
+}
+
+#app-close,#app-caption,#app-img,#app-url
+{
+	float:left;
+	width: auto !important;
+}
+
+#app-bar:after{
+	float:none;
+	clear:both;
+	display:block;
+	content:" ";
+}
+#app-img {
+    padding: 0 10px 0 0;
+}
+#app-caption {
+    width: 210px !important;
+    text-align: left;
+}
+
+@media screen and (max-width: 359px) {
+#app-caption {
+    width: 170px !important;
+	font-size:0.9em;
+
+}
+}

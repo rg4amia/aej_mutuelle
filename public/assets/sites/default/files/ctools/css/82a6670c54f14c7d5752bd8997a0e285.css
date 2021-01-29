@@ -1,0 +1,12 @@
+.pane-plain-box-home-page {
+  margin-bottom: 10px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.pane-plain-box-home-page h2 {
+  color: #000000;
+  background-color: #267725;
+}
+.pane-plain-box-home-page .pane-title {
+  border-bottom: none}
