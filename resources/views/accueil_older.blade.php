@@ -256,14 +256,14 @@
                                     <div class="title-categories">Catégories</div>
                                     <ul class="menu menu-0">
                                         <li class="menu-item--expanded culture menu-item--expanded" aria-expanded="false">
-                                            <a href="/culture" class="first expanded menu-mlid-3769 menu-fields-menu-link">Mutuelle
+                                            <a href="/culture" class="first expanded menu-mlid-3769 menu-fields-menu-link">Culture
                                                 <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_culture.svg') }}" />
                                                 </span>
                                             </a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_culture_plein.svg') }}" /> </span><span>Mutuelle</span><a href="/culture" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_culture_plein.svg') }}" /> </span><span>Culture</span><a href="/culture" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-10641 menu-fields-menu-link">Politique municipale <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -342,7 +342,7 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="menu-item--expanded decouvrir-marseille menu-item--expanded" aria-expanded="false"><a href="/decouvrir-marseille" class="expanded menu-mlid-17789 menu-fields-menu-link">Syndicat
+                                        <li class="menu-item--expanded decouvrir-marseille menu-item--expanded" aria-expanded="false"><a href="/decouvrir-marseille" class="expanded menu-mlid-17789 menu-fields-menu-link">Découvrir Marseille
                                                 <span class="picto-svg"><img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_decouvrir_marseille.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
@@ -350,7 +350,7 @@
                                                     <span class="picto-svg">
                                                         <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_decouvrir_marseille_plein.svg') }}" />
                                                     </span>
-                                                    <span>Syndicat</span>
+                                                    <span>Découvrir Marseille</span>
                                                     <a href="/decouvrir-marseille" title="Voir tout">Voir tout
                                                     </a>
                                                 </div>
@@ -439,11 +439,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded economie menu-item--expanded" aria-expanded="false">
-                                            <a href="/economie" class="expanded menu-mlid-3757 menu-fields-menu-link">Délégué du Personnel
+                                            <a href="/economie" class="expanded menu-mlid-3757 menu-fields-menu-link">Économie
                                                 <span class="picto-svg"><img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/test2.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/test.svg') }}" /> </span><span>Délégué du Personnel</span><a href="/economie" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/test.svg') }}" /> </span><span>Économie</span><a href="/economie" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3402 menu-fields-menu-link">Création d'entreprise <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -513,11 +513,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded education menu-item--expanded" aria-expanded="false">
-                                            <a href="/education" class="expanded menu-mlid-17815 menu-fields-menu-link">Comité De Santé <span class="picto-svg">
+                                            <a href="/education" class="expanded menu-mlid-17815 menu-fields-menu-link">Éducation <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-education-noir_0.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-education-plein-noir.svg') }}" /> </span><span>Comité De Santé</span><a href="/education" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-education-plein-noir.svg') }}" /> </span><span>Éducation</span><a href="/education" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-17818 menu-fields-menu-link">Petite Enfance <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -575,13 +575,13 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="menu-item--expanded environnement menu-item--expanded" aria-expanded="false"><a href="/environnement" class="expanded menu-mlid-3755 menu-fields-menu-link">Association
+                                        <li class="menu-item--expanded environnement menu-item--expanded" aria-expanded="false"><a href="/environnement" class="expanded menu-mlid-3755 menu-fields-menu-link">Environnement
                                                 <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_environnement.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
                                                 {{--{{ asset('assets/') }}--}}
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_environnement_plein.svg') }}" /> </span><span>Association</span><a href="/environnement" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_environnement_plein.svg') }}" /> </span><span>Environnement</span><a href="/environnement" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3302 menu-fields-menu-link">Espaces naturels <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -679,11 +679,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded e-services menu-item--expanded" aria-expanded="false">
-                                            <a href="/e-services" class="expanded menu-mlid-17864 menu-fields-menu-link">Confession Religieuse <span class="picto-svg">
+                                            <a href="/e-services" class="expanded menu-mlid-17864 menu-fields-menu-link">E-services <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_service_en_ligne.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_service_en_ligne_0.svg') }}" /> </span><span>Confession Religieuse</span><a href="/e-services" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_service_en_ligne_0.svg') }}" /> </span><span>E-services</span><a href="/e-services" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-17865 menu-fields-menu-link">Papiers et citoyenneté <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -772,12 +772,12 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="menu-item--expanded international menu-item--expanded" aria-expanded="false"><a href="/international" class="expanded menu-mlid-3756 menu-fields-menu-link">Annonce du Personnnel
+                                        <li class="menu-item--expanded international menu-item--expanded" aria-expanded="false"><a href="/international" class="expanded menu-mlid-3756 menu-fields-menu-link">International
                                                 <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_international.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_international_2.svg') }}" /> </span><span>Annonce du Personnnel</span><a href="/international" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_international_2.svg') }}" /> </span><span>International</span><a href="/international" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-5928 menu-fields-menu-link">Bienvenue à Marseille <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -814,14 +814,14 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded logement-urbanisme menu-item--expanded" aria-expanded="false">
-                                            <a href="/logement-et-urbanisme" class="expanded menu-mlid-3753 menu-fields-menu-link">Anniversaire du Mois <span class="picto-svg">
+                                            <a href="/logement-et-urbanisme" class="expanded menu-mlid-3753 menu-fields-menu-link">Logement & Urbanisme <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_home.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
                                                 <div class="label-menu">
                                                     <span class="picto-svg">
                                                         <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_home_logement_plein.svg') }}" />
-                                                    </span><span>Anniversaire du Mois</span><a href="/logement-et-urbanisme" title="Voir tout">Voir tout</a></div>
+                                                    </span><span>Logement & Urbanisme</span><a href="/logement-et-urbanisme" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3420 menu-fields-menu-link">Plan Local d'Urbanisme <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -859,11 +859,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded mairie menu-item--expanded" aria-expanded="false">
-                                            <a href="/mairie" class="expanded menu-mlid-3761 menu-fields-menu-link">Nos joies <span class="picto-svg">
+                                            <a href="/mairie" class="expanded menu-mlid-3761 menu-fields-menu-link">Mairie <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mairie_0.svg') }}" /> </span><span>Nos joies</span><a href="/mairie" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mairie_0.svg') }}" /> </span><span>Mairie</span><a href="/mairie" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3267 menu-fields-menu-link">Gouvernement municipal <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -919,14 +919,14 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded mer menu-item--expanded" aria-expanded="false">
-                                            <a href="/mer" class="expanded menu-mlid-6144 menu-fields-menu-link">Nos Peines <span class="picto-svg">
+                                            <a href="/mer" class="expanded menu-mlid-6144 menu-fields-menu-link">Mer <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mer.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
                                                 <div class="label-menu">
                                                     <span class="picto-svg">
                                                         <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mer_plein.svg') }}" /> </span>
-                                                    <span>Nos Peines</span><a href="/mer" title="Voir tout">Voir tout</a>
+                                                    <span>Mer</span><a href="/mer" title="Voir tout">Voir tout</a>
                                                 </div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-6169 menu-fields-menu-link">Saison balnéaire <span class="picto-svg"></span></a>
@@ -1002,11 +1002,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded prevention menu-item--expanded" aria-expanded="false">
-                                            <a href="/prevention" class="expanded menu-mlid-3758 menu-fields-menu-link">Bonne Affaire <span class="picto-svg">
+                                            <a href="/prevention" class="expanded menu-mlid-3758 menu-fields-menu-link">Prévention <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_prevention.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_prevention_0.svg') }}" /> </span><span>Bonne Affaire</span><a href="/prevention" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_prevention_0.svg') }}" /> </span><span>Prévention</span><a href="/prevention" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-18685 menu-fields-menu-link">Maison de la Justice et du Droit <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -1535,7 +1535,7 @@
                                 </div>
                             </div>
 
-                           <div class="content">
+                            <div class="content">
 
                                 <div class="paragraphs-items paragraphs-items-field-paragraphs paragraphs-items-field-paragraphs-full paragraphs-items-full">
                                     <div class="field field-name-field-paragraphs field-type-paragraphs field-label-hidden">
@@ -1561,14 +1561,17 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
-                                                                                <li class="mairie"><span>Sport</span>
+                                                                                <li class="mairie"><span>Mairie</span>
                                                                                 </li>
                                                                             </ul>
                                                                             <a href="/mairie/actualites/covid19-ou-se-faire-depister-marseille">
-                                                                                <h3 class="title">Sport </h3>
+                                                                                <h3 class="title">Covid-19 : où se faire dépister à Marseille ? </h3>
                                                                             </a>
                                                                             <p class="discription">
-                                                                               Sport...</p> <a class="bouton_niv2" href="/mairie/actualites/covid19-ou-se-faire-depister-marseille">En savoir plus</a>
+                                                                                Mise à jour le lundi 25 janvier
+
+
+                                                                                La Ville de Marseille a mobilisé le Bataillon de marins-pompiers (BMPM), en partenariat avec l'IHU Médit...</p> <a class="bouton_niv2" href="/mairie/actualites/covid19-ou-se-faire-depister-marseille">En savoir plus</a>
                                                                         </div>
                                                                     </div>
                                                                     <div class="actus_slider-items">
@@ -1577,13 +1580,13 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
-                                                                                <li class="prevention"><span>Journée Recrétion</span>
+                                                                                <li class="prevention"><span>Prévention</span>
                                                                                 </li>
                                                                             </ul>
                                                                             <a href="/prevention/actualites/la-maison-de-la-justice-et-du-droit-l-ecoute-des-marseillaises-et-des">
-                                                                                <h3 class="title">Journée Recrétion</h3>
+                                                                                <h3 class="title">La Maison de la Justice et du Droit à l'écoute des Marseillaises et des Marseillais</h3>
                                                                             </a>
-                                                                            <p class="discription">Journée Recrétion...</p> <a class="bouton_niv2" href="/prevention/actualites/la-maison-de-la-justice-et-du-droit-l-ecoute-des-marseillaises-et-des">En savoir plus</a>
+                                                                            <p class="discription">Ouverture ce lundi 11 janvier de la première&nbsp; Maison de la Justice et du Droit à Marseille; une nouvelle structure pour faciliter l’accès...</p> <a class="bouton_niv2" href="/prevention/actualites/la-maison-de-la-justice-et-du-droit-l-ecoute-des-marseillaises-et-des">En savoir plus</a>
                                                                         </div>
                                                                     </div>
                                                                     <div class="actus_slider-items">
@@ -1592,13 +1595,13 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
-                                                                                <li class="mairie"><span>Projet interne</span>
+                                                                                <li class="mairie"><span>Mairie</span>
                                                                                 </li>
                                                                             </ul>
                                                                             <a href="/mairie/actualites/le-maire-de-marseille-presente-ses-voeux-aux-marseillaises-et-aux-marseillais">
-                                                                                <h3 class="title">Projet interne</h3>
+                                                                                <h3 class="title">Le Maire de Marseille présente ses vœux aux Marseillaises et aux Marseillais</h3>
                                                                             </a>
-                                                                            <p class="discription">Projet interne...</p> <a class="bouton_niv2" href="/mairie/actualites/le-maire-de-marseille-presente-ses-voeux-aux-marseillaises-et-aux-marseillais">En savoir plus</a>
+                                                                            <p class="discription">Le Maire de Marseille Benoît Payan adresse ses meilleurs vœux aux Marseillaises et aux Marseillais après une année inédite qui marquera à jam...</p> <a class="bouton_niv2" href="/mairie/actualites/le-maire-de-marseille-presente-ses-voeux-aux-marseillaises-et-aux-marseillais">En savoir plus</a>
                                                                         </div>
                                                                     </div>
                                                                     <div class="actus_slider-items">
@@ -1607,13 +1610,15 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
-                                                                                <li class="mairie"><span>Ayoka</span>
+                                                                                <li class="mairie"><span>Mairie</span>
                                                                                 </li>
                                                                             </ul>
                                                                             <a href="/mairie/actualites/suivez-en-direct-le-conseil-municipal-ce-lundi-21-decembre">
-                                                                                <h3 class="title">Ayoka</h3>
+                                                                                <h3 class="title">Revivez en différé le conseil municipal du lundi 21 décembre</h3>
                                                                             </a>
-                                                                            <p class="discription">Ayoka...</p> <a class="bouton_niv2" href="/mairie/actualites/suivez-en-direct-le-conseil-municipal-ce-lundi-21-decembre">En savoir plus</a>
+                                                                            <p class="discription">Le dernier conseil municipal de l'année s'est tenu ce lundi 21 décembre au sein de l’hémicycle Villeneuve Bargemon.
+
+                                                                                Le conseil municipal&nb...</p> <a class="bouton_niv2" href="/mairie/actualites/suivez-en-direct-le-conseil-municipal-ce-lundi-21-decembre">En savoir plus</a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1625,9 +1630,9 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
-                                                                                Sport </div>
+                                                                                Santé </div>
                                                                             <a href="/sante/actualites/vaccination-contre-la-covid-19-mode-d-emploi">
-                                                                                <h3 class="content_desc">Sport</h3>
+                                                                                <h3 class="content_desc">Vaccination contre la Covid-19 : mode d'emploi</h3>
                                                                             </a>
 
                                                                         </div>
@@ -1639,9 +1644,9 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
-                                                                                Journée Récréation </div>
+                                                                                Culture </div>
                                                                             <a href="/culture/actualites/la-restitution-de-pinede-cassis-d-andre-derain-la-famille-du-resistant-juif-rene">
-                                                                                <h3 class="content_desc"> Journée Récréation</h3>
+                                                                                <h3 class="content_desc"> La restitution de "Pinède, Cassis" d'André Derain à la famille du résistant juif René Gimpel</h3>
                                                                             </a>
 
                                                                         </div>
@@ -1653,9 +1658,9 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
-                                                                                Projet Interne </div>
+                                                                                Santé </div>
                                                                             <a href="/sante/actualites/vaccination-retour-sur-trois-siecles-d-immunisation">
-                                                                                <h3 class="content_desc"> Projet Interne</h3>
+                                                                                <h3 class="content_desc">Vaccination : retour sur trois siècles d’immunisation</h3>
                                                                             </a>
 
                                                                         </div>
@@ -1667,9 +1672,9 @@
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
-                                                                                Ayoka </div>
+                                                                                Environnement </div>
                                                                             <a href="/environnement/actualites/protection-des-terres-agricoles-dans-marseille-l-exemple-de-sainte-marthe">
-                                                                                <h3 class="content_desc">Ayoka</h3>
+                                                                                <h3 class="content_desc">Protection des terres agricoles dans Marseille : l'exemple de Sainte-Marthe</h3>
                                                                             </a>
 
                                                                         </div>
@@ -1707,12 +1712,12 @@
                                                         <div class="thematiques" title="section thematiques">
                                                             <div class="container">
                                                                 <div class="row block">
-                                                                    <h2 class="section_title white-decorqtion">Agences </h2>
+                                                                    <h2 class="section_title white-decorqtion">Thématiques </h2>
                                                                     <ul class="thematiques_content">
 
                                                                         <li class="culture">
                                                                             <h3>
-                                                                                <a href="/culture" target="" data-bbrr="node/4979"> Siege <span class="picto-svg">
+                                                                                <a href="/culture" target="" data-bbrr="node/4979"> Culture <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_culture.svg') }}" alt="Culture">
                                                                                     </span>
                                                                                 </a>
@@ -1720,7 +1725,7 @@
                                                                         </li>
                                                                         <li class="decouvrir-marseille">
                                                                             <h3>
-                                                                                <a href="/decouvrir-marseille" target="" data-bbrr="node/4988"> Yopougon
+                                                                                <a href="/decouvrir-marseille" target="" data-bbrr="node/4988"> Découvrir Marseille
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_decouvrir_marseille.svg') }}" alt="Découvrir Marseille">
                                                                                     </span>
@@ -1729,7 +1734,7 @@
                                                                         </li>
                                                                         <li class="economie">
                                                                             <h3>
-                                                                                <a href="/economie" target="" data-bbrr="node/4984"> Abobo
+                                                                                <a href="/economie" target="" data-bbrr="node/4984"> Economie
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/test2.svg') }}" alt="Economie">
                                                                                     </span>
@@ -1738,7 +1743,7 @@
                                                                         </li>
                                                                         <li class="education">
                                                                             <h3>
-                                                                                <a href="/education" target="" data-bbrr="node/5000"> Treichville <span class="picto-svg">
+                                                                                <a href="/education" target="" data-bbrr="node/5000"> Education <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/picto-education-noir_0.svg') }}" alt="Education">
                                                                                     </span>
                                                                                 </a>
@@ -1746,7 +1751,7 @@
                                                                         </li>
                                                                         <li class="environnement">
                                                                             <h3>
-                                                                                <a href="/environnement" target="" data-bbrr="node/4989"> Bouaké <span class="picto-svg">
+                                                                                <a href="/environnement" target="" data-bbrr="node/4989"> Environnement <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_environnement.svg') }}" alt="Environnement">
                                                                                     </span>
                                                                                 </a>
@@ -1754,7 +1759,7 @@
                                                                         </li>
                                                                         <li class="e-services">
                                                                             <h3>
-                                                                                <a href="/e-services" target="" data-bbrr="node/5001"> San-Pedro <span class="picto-svg">
+                                                                                <a href="/e-services" target="" data-bbrr="node/5001"> E-services <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_service_en_ligne.svg') }}" alt="E-services">
                                                                                     </span>
                                                                                 </a>
@@ -1762,7 +1767,7 @@
                                                                         </li>
                                                                         <li class="international">
                                                                             <h3>
-                                                                                <a href="/international" target="" data-bbrr="node/5003"> Yamoussoukro
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> International
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
                                                                                     </span>
@@ -1771,7 +1776,7 @@
                                                                         </li>
                                                                         <li class="logement-urbanisme">
                                                                             <h3>
-                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991"> Agence X
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991"> Logement-Urbanisme
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
                                                                                     </span>
@@ -1780,14 +1785,67 @@
                                                                         </li>
                                                                         <li class="mairie">
                                                                             <h3>
-                                                                                <a href="/mairie" target="" data-bbrr="node/4995"> Agence Y
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995"> Mairie
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
                                                                                     </span>
                                                                                 </a>
                                                                             </h3>
                                                                         </li>
-
+                                                                        <li class="mer">
+                                                                            <h3>
+                                                                                <a href="/mer" target="" data-bbrr="node/4997"> Mer
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mer.svg') }}" alt="Mer">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="prevention">
+                                                                            <h3>
+                                                                                <a href="/prevention" target="" data-bbrr="node/4992"> Prévention
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_prevention.svg') }}" alt="Prévention">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="sante">
+                                                                            <h3>
+                                                                                <a href="/sante" target="" data-bbrr="node/4994"> Santé
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_sante.svg') }}" alt="Santé">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="social">
+                                                                            <h3>
+                                                                                <a href="/social" target="" data-bbrr="node/4996"> Social
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/picto-social-noir.svg') }}" alt="Social">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="sports-loisirs">
+                                                                            <h3>
+                                                                                <a href="/sports-et-loisirs" target="" data-bbrr="node/4998"> Sports-Loisirs
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_sport.svg') }}" alt="Sports-Loisirs">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="se-deplacer">
+                                                                            <h3>
+                                                                                <a href="/se-deplacer" target="" data-bbrr="node/4999"> Se déplacer
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_transport.svg') }}" alt="Se déplacer">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
 
                                                                     </ul>
                                                                 </div>
@@ -1820,17 +1878,17 @@
                                                             <h2 class="section_title">
                                                                 <div class="field field-name-field-titre-block field-type-text field-label-hidden">
                                                                     <div class="field-items">
-                                                                        <div class="field-item even">LES BONNES AFFAIRES DE L'AGENCE</div>
+                                                                        <div class="field-item even">SUIVEZ-NOUS SUR LES RÉSEAUX SOCIAUX</div>
                                                                     </div>
                                                                 </div>
                                                             </h2>
                                                             <div class="c-rs">
-                                                               <!--  <ul>
-                                                                    <li><a href="https://www.instagram.com/villemarseille/" title="instagram" target="_blank"><span class="hiddenLabel">Affaire 1</span><i class="icon-icons__instagram"></i></a></li>
-                                                                    <li><a href="https://twitter.com/marseille" title="twitter" target="_blank"><span class="hiddenLabel">Affaire 2</span><i class="icon-icons__twitter"></i></a></li>
-                                                                    <li><a href="https://facebook.com/marseilleville/" title="facebook" target="_blank"><span class="hiddenLabel">Affaire 3</span><i class="icon-Fichier-13"></i></a></li>
-                                                                    <li><a href="https://www.youtube.com/user/VilledeMarseille" title="youtube" target="_blank"><span class="hiddenLabel">Affaire 4</span><i class="icon-icons__youtube"></i></a></li>
-                                                                </ul> -->
+                                                                <ul>
+                                                                    <li><a href="https://www.instagram.com/villemarseille/" title="instagram" target="_blank"><span class="hiddenLabel">instagram</span><i class="icon-icons__instagram"></i></a></li>
+                                                                    <li><a href="https://twitter.com/marseille" title="twitter" target="_blank"><span class="hiddenLabel">twitter</span><i class="icon-icons__twitter"></i></a></li>
+                                                                    <li><a href="https://facebook.com/marseilleville/" title="facebook" target="_blank"><span class="hiddenLabel">facebook</span><i class="icon-Fichier-13"></i></a></li>
+                                                                    <li><a href="https://www.youtube.com/user/VilledeMarseille" title="youtube" target="_blank"><span class="hiddenLabel">youtube</span><i class="icon-icons__youtube"></i></a></li>
+                                                                </ul>
                                                             </div>
                                                         </div>
                                                         <div class="c-suivez-rs">
@@ -1840,7 +1898,7 @@
                                                                         <img src="https://pbs.twimg.com/media/Eszb4VkW4AAoWab.jpg" alt="Découvrez les bons comportements à adopter pour ne pas déclencher de feux de forêt et prévenir du risque incendie">
                                                                         <div class="txt-rs">
                                                                             <p>#MarseilleSolidaire I «Allô Mairie» renforce son action au service des habitants avec une cellule d’écoute accessible gratuitement 24h/7j au 3013 pour répondre aux questions des Marseillaises et des Marseillais en cette période de crise sanitaire. <a href="https://t.co/iwkbJarl31" title="https://t.co/iwkbJarl31" target="_blank">https://t.co/iwkbJarl31</a></p>
-                                                                            <a class="linkmore-rs" target="_blank" href="https://twitter.com/223409548/status/1354700742347665409">Affaire 1</a>
+                                                                            <a class="linkmore-rs" target="_blank" href="https://twitter.com/223409548/status/1354700742347665409">TWITTER<i class="icon-icons__twitter"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1848,7 +1906,7 @@
                                                                 <div class="col-sm-12 col-md-12 col-lg-3">
                                                                     <div class="inner-face"><img src="https://external-cdt1-1.xx.fbcdn.net/safe_image.php?d=AQHOW-Jasg_Q_E7-&w=630&h=630&url=https%3A%2F%2Fwww.marseille.fr%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1200x630%2Fpublic%2Fcontenu%2Fculture%2Fmusee_cantini%2Ftableau-768x5291.jpg%3Fitok%3D9xgtLg8V&cfs=1&_nc_cb=1&_nc_hash=AQHpPQK2Z_8czgvh" alt="En ce 27 janvier, Journée de la mémoire des génocides et de la prévention des crimes contre l'humanité, la Mairie de Marseille a décidé de restituer à la famille de René Gimpel, célèbre marchand d'art juif, le tableau “Pinède, Cassis” du peintre fauviste André Derain, qui figurait d...">
                                                                         <div class="txt-rs">
-                                                                            <p> En ce 27 janvier, Journée de la mémoire des génocides et de la prévention des crimes contre l'humanité, la Mairie de Marseille a décidé de restituer à la famille de René G... </p><a class="linkmore-rs" target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3pss9Ak&h=AT2p1h119HGQJgJIKcWl9G817VOr9nmknwSiSswlbCDV0zk_6h0iHveybBzEkm5690FKY8N6FjAVJ-Cla0lSTe6CYWm0Nu2fzILab_DEx2siSwsfINMuYKaRZScWMMAB&s=1">Affaire 2</a>
+                                                                            <p> En ce 27 janvier, Journée de la mémoire des génocides et de la prévention des crimes contre l'humanité, la Mairie de Marseille a décidé de restituer à la famille de René G... </p><a class="linkmore-rs" target="_blank" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbit.ly%2F3pss9Ak&h=AT2p1h119HGQJgJIKcWl9G817VOr9nmknwSiSswlbCDV0zk_6h0iHveybBzEkm5690FKY8N6FjAVJ-Cla0lSTe6CYWm0Nu2fzILab_DEx2siSwsfINMuYKaRZScWMMAB&s=1">FACEBOOK<i class="icon-Fichier-13"></i></a>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -1858,17 +1916,17 @@
                                                                         <div class="col-12 col-md-8 col-lg-12">
                                                                             <div class="inner-youtube">
                                                                                 <h2></h2>
-                                                                                <iframe width="420" height="315" src="//www.youtube.com/embed/EralvXZ0xkA" frameborder="0" allowfullscreen></iframe> <span class="s-title">Affaire 3</span>
+                                                                                <iframe width="420" height="315" src="//www.youtube.com/embed/EralvXZ0xkA" frameborder="0" allowfullscreen></iframe> <span class="s-title"><i class="icon-icons__youtube"></i>YOUTUBE</span>
                                                                             </div>
                                                                         </div>
                                                                         <div class="col-md-4 col-lg-6">
                                                                             <a target="_blank" href="https://www.instagram.com/p/CKd4WcEAdAr/">
-                                                                                <div class="inner-insta"><img src="https://scontent-cdg2-1.cdninstagram.com/v/t51.29350-15/141391413_1792801664222622_3801287997245053541_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8ae9d6&_nc_ohc=H7bgDrUpzrQAX9vY7KF&_nc_ht=scontent-cdg2-1.cdninstagram.com&oh=e1387a9ca66a63243844a9358ba650f7&oe=60398E3F" alt="instagram"><span class="s-title">Affaire 4</span></div>
+                                                                                <div class="inner-insta"><img src="https://scontent-cdg2-1.cdninstagram.com/v/t51.29350-15/141391413_1792801664222622_3801287997245053541_n.jpg?_nc_cat=111&ccb=2&_nc_sid=8ae9d6&_nc_ohc=H7bgDrUpzrQAX9vY7KF&_nc_ht=scontent-cdg2-1.cdninstagram.com&oh=e1387a9ca66a63243844a9358ba650f7&oe=60398E3F" alt="instagram"><span class="s-title"><i class="icon-icons__instagram"></i>INSTAGRAM</span></div>
                                                                             </a>
                                                                         </div>
                                                                         <div class="col-md-6 col-lg-6 hidden-md">
                                                                             <a target="_blank" href="https://www.instagram.com/p/CKUBIoqgo69/">
-                                                                                <div class="inner-insta"><img src=" https://scontent-cdg2-1.cdninstagram.com/v/t51.29350-15/140427572_232575905025647_9089018932383179181_n.jpg?_nc_cat=107&ccb=2&_nc_sid=8ae9d6&_nc_ohc=TE1jIVePRQIAX_768Pp&_nc_ht=scontent-cdg2-1.cdninstagram.com&oh=73c13a4729cf9231333b9f227cf17af4&oe=6037C394 " alt="instagram"><span class="s-title">Affaire 5</span></div>
+                                                                                <div class="inner-insta"><img src=" https://scontent-cdg2-1.cdninstagram.com/v/t51.29350-15/140427572_232575905025647_9089018932383179181_n.jpg?_nc_cat=107&ccb=2&_nc_sid=8ae9d6&_nc_ohc=TE1jIVePRQIAX_768Pp&_nc_ht=scontent-cdg2-1.cdninstagram.com&oh=73c13a4729cf9231333b9f227cf17af4&oe=6037C394 " alt="instagram"><span class="s-title"><i class="icon-icons__instagram"></i>INSTAGRAM</span></div>
                                                                             </a>
                                                                         </div>
                                                                     </div>
