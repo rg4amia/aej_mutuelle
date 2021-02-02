@@ -256,14 +256,14 @@
                                     <div class="title-categories">Catégories</div>
                                     <ul class="menu menu-0">
                                         <li class="menu-item--expanded culture menu-item--expanded" aria-expanded="false">
-                                            <a href="/culture" class="first expanded menu-mlid-3769 menu-fields-menu-link">Culture
+                                            <a href="/culture" class="first expanded menu-mlid-3769 menu-fields-menu-link">Mutuelle
                                                 <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_culture.svg') }}" />
                                                 </span>
                                             </a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_culture_plein.svg') }}" /> </span><span>Culture</span><a href="/culture" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_culture_plein.svg') }}" /> </span><span>Mutuelle</span><a href="/culture" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-10641 menu-fields-menu-link">Politique municipale <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -342,7 +342,7 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="menu-item--expanded decouvrir-marseille menu-item--expanded" aria-expanded="false"><a href="/decouvrir-marseille" class="expanded menu-mlid-17789 menu-fields-menu-link">Découvrir Marseille
+                                        <li class="menu-item--expanded decouvrir-marseille menu-item--expanded" aria-expanded="false"><a href="/decouvrir-marseille" class="expanded menu-mlid-17789 menu-fields-menu-link">Syndicat
                                                 <span class="picto-svg"><img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_decouvrir_marseille.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
@@ -350,7 +350,7 @@
                                                     <span class="picto-svg">
                                                         <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_decouvrir_marseille_plein.svg') }}" />
                                                     </span>
-                                                    <span>Découvrir Marseille</span>
+                                                    <span>Syndicat</span>
                                                     <a href="/decouvrir-marseille" title="Voir tout">Voir tout
                                                     </a>
                                                 </div>
@@ -439,11 +439,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded economie menu-item--expanded" aria-expanded="false">
-                                            <a href="/economie" class="expanded menu-mlid-3757 menu-fields-menu-link">Économie
+                                            <a href="/economie" class="expanded menu-mlid-3757 menu-fields-menu-link">Délégué du Personnel
                                                 <span class="picto-svg"><img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/test2.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/test.svg') }}" /> </span><span>Économie</span><a href="/economie" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/test.svg') }}" /> </span><span>Délégué du Personnel</span><a href="/economie" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3402 menu-fields-menu-link">Création d'entreprise <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -513,11 +513,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded education menu-item--expanded" aria-expanded="false">
-                                            <a href="/education" class="expanded menu-mlid-17815 menu-fields-menu-link">Éducation <span class="picto-svg">
+                                            <a href="/education" class="expanded menu-mlid-17815 menu-fields-menu-link">Comité De Santé <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-education-noir_0.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-education-plein-noir.svg') }}" /> </span><span>Éducation</span><a href="/education" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-education-plein-noir.svg') }}" /> </span><span>Comité De Santé</span><a href="/education" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-17818 menu-fields-menu-link">Petite Enfance <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -575,13 +575,13 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="menu-item--expanded environnement menu-item--expanded" aria-expanded="false"><a href="/environnement" class="expanded menu-mlid-3755 menu-fields-menu-link">Environnement
+                                        <li class="menu-item--expanded environnement menu-item--expanded" aria-expanded="false"><a href="/environnement" class="expanded menu-mlid-3755 menu-fields-menu-link">Association
                                                 <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_environnement.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
                                                 {{--{{ asset('assets/') }}--}}
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_environnement_plein.svg') }}" /> </span><span>Environnement</span><a href="/environnement" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_environnement_plein.svg') }}" /> </span><span>Association</span><a href="/environnement" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3302 menu-fields-menu-link">Espaces naturels <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -679,11 +679,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded e-services menu-item--expanded" aria-expanded="false">
-                                            <a href="/e-services" class="expanded menu-mlid-17864 menu-fields-menu-link">E-services <span class="picto-svg">
+                                            <a href="/e-services" class="expanded menu-mlid-17864 menu-fields-menu-link">Confession Religieuse <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_service_en_ligne.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_service_en_ligne_0.svg') }}" /> </span><span>E-services</span><a href="/e-services" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_service_en_ligne_0.svg') }}" /> </span><span>Confession Religieuse</span><a href="/e-services" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-17865 menu-fields-menu-link">Papiers et citoyenneté <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -772,12 +772,12 @@
                                                 </ul>
                                             </div>
                                         </li>
-                                        <li class="menu-item--expanded international menu-item--expanded" aria-expanded="false"><a href="/international" class="expanded menu-mlid-3756 menu-fields-menu-link">International
+                                        <li class="menu-item--expanded international menu-item--expanded" aria-expanded="false"><a href="/international" class="expanded menu-mlid-3756 menu-fields-menu-link">Annonce du Personnnel
                                                 <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_international.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_international_2.svg') }}" /> </span><span>International</span><a href="/international" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_international_2.svg') }}" /> </span><span>Annonce du Personnnel</span><a href="/international" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-5928 menu-fields-menu-link">Bienvenue à Marseille <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -814,14 +814,14 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded logement-urbanisme menu-item--expanded" aria-expanded="false">
-                                            <a href="/logement-et-urbanisme" class="expanded menu-mlid-3753 menu-fields-menu-link">Logement & Urbanisme <span class="picto-svg">
+                                            <a href="/logement-et-urbanisme" class="expanded menu-mlid-3753 menu-fields-menu-link">Anniversaire du Mois <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_home.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
                                                 <div class="label-menu">
                                                     <span class="picto-svg">
                                                         <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_home_logement_plein.svg') }}" />
-                                                    </span><span>Logement & Urbanisme</span><a href="/logement-et-urbanisme" title="Voir tout">Voir tout</a></div>
+                                                    </span><span>Anniversaire du Mois</span><a href="/logement-et-urbanisme" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3420 menu-fields-menu-link">Plan Local d'Urbanisme <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -859,11 +859,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded mairie menu-item--expanded" aria-expanded="false">
-                                            <a href="/mairie" class="expanded menu-mlid-3761 menu-fields-menu-link">Mairie <span class="picto-svg">
+                                            <a href="/mairie" class="expanded menu-mlid-3761 menu-fields-menu-link">Nos joies <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mairie_0.svg') }}" /> </span><span>Mairie</span><a href="/mairie" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mairie_0.svg') }}" /> </span><span>Nos joies</span><a href="/mairie" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3267 menu-fields-menu-link">Gouvernement municipal <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -919,14 +919,14 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded mer menu-item--expanded" aria-expanded="false">
-                                            <a href="/mer" class="expanded menu-mlid-6144 menu-fields-menu-link">Mer <span class="picto-svg">
+                                            <a href="/mer" class="expanded menu-mlid-6144 menu-fields-menu-link">Nos Peines <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mer.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
                                                 <div class="label-menu">
                                                     <span class="picto-svg">
                                                         <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_mer_plein.svg') }}" /> </span>
-                                                    <span>Mer</span><a href="/mer" title="Voir tout">Voir tout</a>
+                                                    <span>Nos Peines</span><a href="/mer" title="Voir tout">Voir tout</a>
                                                 </div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-6169 menu-fields-menu-link">Saison balnéaire <span class="picto-svg"></span></a>
@@ -1002,11 +1002,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded prevention menu-item--expanded" aria-expanded="false">
-                                            <a href="/prevention" class="expanded menu-mlid-3758 menu-fields-menu-link">Prévention <span class="picto-svg">
+                                            <a href="/prevention" class="expanded menu-mlid-3758 menu-fields-menu-link">Bonne Affaire <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_prevention.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_prevention_0.svg') }}" /> </span><span>Prévention</span><a href="/prevention" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_prevention_0.svg') }}" /> </span><span>Bonne Affaire</span><a href="/prevention" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-18685 menu-fields-menu-link">Maison de la Justice et du Droit <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
