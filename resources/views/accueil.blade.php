@@ -23,14 +23,14 @@
     <meta name="theme-color" content="#ffffff">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta property="fb:pages" content="211392938886625" />
-    <link rel="shortcut icon" href="https://www.marseille.fr/sites/default/files/drupalexp/icons/favicon-32x32.png" type="image/png" />
+    <link rel="shortcut icon" href="/assets/sites/default/files/drupalexp/icons/favicon-32x32.png" type="image/png" />
     <meta name="description" content="Retrouvez tous les services et démarches, les informations pratiques, les actualités et événements de la Ville de Marseille." />
     <meta name="keywords" content="ville de Marseille, Marseille, mairie de Marseille, marseille, Ville de marseille, Mairie de marseille" />
     <meta name="robots" content="follow, index" />
     <meta name="generator" content="Drupal 7 (http://drupal.org)" />
-    <link rel="canonical" href="https://www.marseille.fr/" />
-    <link rel="shortlink" href="https://www.marseille.fr/" />
-    <title>Ville de Marseille | Site officiel de la Ville de Marseille</title>
+    <link rel="canonical" href="/assets/" />
+    <link rel="shortlink" href="/assets/" />
+    <title>AEJ Famille | Site officiel du personnel de l'Agence Emploi Jeunes</title>
     <style type="text/css" media="all">
         @import url("{{ asset('assets/modules/system/system.base.css') }}");
         @import url("{{ asset('assets/modules/system/system.menus.css') }}");
@@ -393,7 +393,7 @@
                                                                 <li class=""><a href="/decouvrir-marseille/patrimoines-et-monuments/d%C3%A9cors-sculpt%C3%A9s">Décors sculptés <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/decouvrir-marseille/patrimoines-et-monuments/fontaines">Fontaines <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/decouvrir-marseille/patrimoines-et-monuments/cimeti%C3%A8res">Cimetières <span class="picto-svg"></span></a></li>
-                                                                <li class=""><a href="https://www.marseille.fr/environnement/presentation">Parcs et jardins <span class="picto-svg"></span></a></li>
+                                                                <li class=""><a href="/assets/environnement/presentation">Parcs et jardins <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="http://marseille.fr/decouvrir-marseille/patrimoines-et-monuments/espaces-naturels">Espaces naturels <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="http://notredamedelagarde.marseille.fr/">Notre Dame de la Garde <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/decouvrir-marseille/patrimoines-et-monuments/promenade-dans-les-calanques">Promenade dans les calanques <span class="picto-svg"></span></a></li>
@@ -589,7 +589,7 @@
                                                                 <li class=""><a href="/environnement/espaces-naturels/espaces-naturels-pr%C3%A9sentation">Présentation <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/mer">Mer <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/environnement/espaces-naturels/littoral">Littoral <span class="picto-svg"></span></a></li>
-                                                                <li class=""><a href="https://www.marseille.fr/mer/les-plages">Plages <span class="picto-svg"></span></a></li>
+                                                                <li class=""><a href="/assets/mer/les-plages">Plages <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/environnement/espaces-naturels/nautisme-et-plages">Nautisme et plages <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/environnement/espaces-naturels/massifs">Massifs <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/environnement/espaces-naturels/itin%C3%A9raires-de-randonn%C3%A9es">Itinéraires de randonnées <span class="picto-svg"></span></a></li>
@@ -1137,7 +1137,7 @@
                                                                 <li class=""><a href="/social/ecole-de-la-deuxieme-chance">École de la deuxième chance <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/social/credit-municipal">Crédit municipal <span class="picto-svg"></span></a></li>
                                                                 <li class=""><a href="/sports-loisirs/equipements-municipaux-et-sociaux">Equipements municipaux et sociaux <span class="picto-svg"></span></a></li>
-                                                                <li class=""><a href="https://www.marseille.fr/presentation-de-la-maison-de-la-justice-et-du-droit">Maison de la Justice et du Droit <span class="picto-svg"></span></a></li>
+                                                                <li class=""><a href="/assets/presentation-de-la-maison-de-la-justice-et-du-droit">Maison de la Justice et du Droit <span class="picto-svg"></span></a></li>
                                                             </ul>
                                                         </div>
                                                     </li>
@@ -1301,14 +1301,14 @@
                         <div class="header-top ">
                             <div class="logo">
                                 <h1>
-                                    <img src="https://www.marseille.fr/sites/default/files/blason-ville-de-marseille_0.png" alt="Marseille.fr">
-                                    <span class="slogan">Marseille.fr</span>
+                                    <img src="{{ asset('assets/images/logo/logo_aejfamille.png') }}" alt="Marseille.fr">
+                                    <span class="slogan">AEJ Famille</span>
                                 </h1>
                             </div>
                             <div class="inner-search">
                                 <div class="c-search">
                                     <div id="block-search-form" class="block block-search">
-                                        <form action="https://www.marseille.fr/" method="post" id="search-block-form" accept-charset="UTF-8">
+                                        <form action="/assets/" method="post" id="search-block-form" accept-charset="UTF-8">
                                             <div>
                                                 <div class="container-inline">
                                                     <h2 class="element-invisible">Formulaire de recherche</h2>
@@ -1332,17 +1332,24 @@
                                 </div>
                             </div>
                             <div class="bar-right">
-                                <div class="c-webcams"><a href="nos-webcams" title="">Webcams</a></div>
-                                <div class="c-langue">
+                                <div class="c-webcams">
+                                    <a href="nos-webcams" title="">Mon espace privé</a>
+                                </div>
+                                <br>
+                               {{--  <div class="c-langue">
+                                    <div class="c-webcams"><a href="nos-webcams" title="">s’inscrire</a></div>
+                                </div> --}}
+
+                               {{--  <div class="c-langue">
                                     <span class="dec-switch"></span>
                                     <ul>
                                         <li value="0" class="lang-item" selected="selected">fr</li>
-                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=en&js=y&prev=_t&hl=fr&ie=UTF-8&u=https://www.marseille.fr/node/4978/">en</a></li>
-                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=es&js=y&prev=_t&hl=fr&ie=UTF-8&u=https://www.marseille.fr/node/4978/">es</a></li>
-                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=it&js=y&prev=_t&hl=fr&ie=UTF-8&u=https://www.marseille.fr/node/4978/">it</a></li>
-                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=de&js=y&prev=_t&hl=fr&ie=UTF-8&u=https://www.marseille.fr/node/4978/">de</a></li>
+                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=en&js=y&prev=_t&hl=fr&ie=UTF-8&u=/assets/node/4978/">en</a></li>
+                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=es&js=y&prev=_t&hl=fr&ie=UTF-8&u=/assets/node/4978/">es</a></li>
+                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=it&js=y&prev=_t&hl=fr&ie=UTF-8&u=/assets/node/4978/">it</a></li>
+                                        <li class="lang-item"><a href="http://translate.google.com/translate?sl=fr&tl=de&js=y&prev=_t&hl=fr&ie=UTF-8&u=/assets/node/4978/">de</a></li>
                                     </ul>
-                                </div>
+                                </div> --}}
                                 <div class="c-rs">
                                     <ul>
                                         <li><a href="https://twitter.com/marseille" title="Twitter" target="_blank"><span class="hiddenLabel">Twitter</span><i class="icon-icons__twitter"></i></a></li>
@@ -1371,8 +1378,8 @@
 
                             <span property="dc:title" content="Accueil" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
                             <div class="main-banner">
-                                <img style="width: 100%" class="img-banner" alt="" src="https://www.marseille.fr/sites/default/files/styles/1920x787/public/accueil_marseille.jpg?itok=syX3ItSb">
-                                <img class="img-banner img-banner-mobile" alt="" src="https://www.marseille.fr/sites/default/files/styles/760x530/public/img-mobile_0_0.jpg?itok=9AcX2IL6">
+                                <img style="width: 100%" class="img-banner" alt="" src="{{ asset('/assets/images/banner/accueil_marseille.jpg') }}" height="787" width="1920">
+                                <img class="img-banner img-banner-mobile" alt="" src="{{ asset('/assets/images/banner/accueil_marseille.jpg') }}" height="787" width="1920">
                                 <div class="introMobile">
                                     <div class="txtIntro">
                                         <div class="field field-name-body field-type-text-with-summary field-label-hidden">
@@ -1410,7 +1417,7 @@
                                     <div class="main-search">
                                         <div class="c-search">
                                             <div id="block-search-form--2" class="block block-search">
-                                                <form action="https://www.marseille.fr/" method="post" id="search-block-form--2" accept-charset="UTF-8">
+                                                <form action="/assets/" method="post" id="search-block-form--2" accept-charset="UTF-8">
                                                     <div>
                                                         <div class="container-inline">
                                                             <h2 class="element-invisible">Formulaire de recherche</h2>
@@ -1421,7 +1428,7 @@
                                                     </div>
                                                 </form>
                                             </div>
-                                            <div class="c-sugger">
+                                           {{--  <div class="c-sugger">
                                                 <div class="recherche-current">Recherche</div>
                                                 <ul>
                                                     <li><a href="/search/site/Offres+d%26%23039%3Bemploi">Offres d&#039;emploi</a></li>
@@ -1430,44 +1437,50 @@
                                                     <li><a href="/search/site/Demande+passeport">Demande passeport</a></li>
                                                     <li><a href="/search/site/Conseil+municipal">Conseil municipal</a></li>
                                                 </ul>
-                                            </div>
+                                            </div> --}}
                                         </div>
 
                                         <div class="list-acces descktop">
                                             <div class="c-list-acces">
                                                 <ul class="row slider-acces first-list">
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/actualites/distribution-de-masques-grand-public-par-les-services-de-la-ville">Informations Covid <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/mairie/actualites/distribution-de-masques-grand-public-par-les-services-de-la-ville">MUTUELLE<span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icons_masque_4.svg') }}" alt="Informations Covid">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/presentation-de-la-maison-de-la-justice-et-du-droit" target='_blank'>Maison de la Justice & du Droit <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/presentation-de-la-maison-de-la-justice-et-du-droit" target='_blank'>
+                                                            SYNDICAT
+                                                            <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icon-maison_droit.svg') }}" alt="Maison de la Justice & du Droit">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://superminot.marseille.fr/" target='_blank'>Superminot <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="https://superminot.marseille.fr/" target='_blank'>
+                                                            DELEGUE
+                                                            <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icons_services_superminot-blanc.svg') }}" alt="Superminot">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/social/actualites/crise-sanitaire-allo-mairie-votre-ecoute-24h7j-pendant-le-confinement">Allô Mairie <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/social/actualites/crise-sanitaire-allo-mairie-votre-ecoute-24h7j-pendant-le-confinement">
+                                                            COMITE DE SANTE
+                                                            <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/picto-allomairie_0.svg') }}" alt="Allô Mairie">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/emplois/les-offres-d-emplois">Offres d'emploi <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/mairie/emplois/les-offres-d-emplois">ASSOCIATION<span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icons_services_offre_emploi-blanc.svg') }}" alt="Offres d'emploi">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="http://marchespublics.mairie-marseille.fr" target='_blank'>Marchés Publics <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="http://marchespublics.mairie-marseille.fr" target='_blank'>CONFESSION <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/handshake_1.svg') }}" alt="Marchés Publics">
                                                             </span>
                                                         </a>
@@ -1480,13 +1493,13 @@
                                             <div class="c-list-acces">
                                                 <ul class="row slider-acces">
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/actualites/distribution-de-masques-grand-public-par-les-services-de-la-ville">Informations Covid <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/mairie/actualites/distribution-de-masques-grand-public-par-les-services-de-la-ville">Informations Covid <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icons_masque_4.svg') }}" alt="Informations Covid">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/presentation-de-la-maison-de-la-justice-et-du-droit" target='_blank'>Maison de la Justice & du Droit <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/presentation-de-la-maison-de-la-justice-et-du-droit" target='_blank'>Maison de la Justice & du Droit <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icon-maison_droit.svg') }}" alt="Maison de la Justice & du Droit">
                                                             </span>
                                                         </a>
@@ -1498,13 +1511,13 @@
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/social/actualites/crise-sanitaire-allo-mairie-votre-ecoute-24h7j-pendant-le-confinement">Allô Mairie <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/social/actualites/crise-sanitaire-allo-mairie-votre-ecoute-24h7j-pendant-le-confinement">Allô Mairie <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/picto-allomairie_0.svg') }}" alt="Allô Mairie">
                                                             </span>
                                                         </a>
                                                     </li>
                                                     <li class="col-sm-2">
-                                                        <a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/emplois/les-offres-d-emplois">Offres d'emploi <span class="picto-svg">
+                                                        <a class="boutton_acces-rapides" href="/assets/mairie/emplois/les-offres-d-emplois">Offres d'emploi <span class="picto-svg">
                                                                 <img src="{{ asset('assets/sites/default/files/icons_services_offre_emploi-blanc.svg') }}" alt="Offres d'emploi">
                                                             </span>
                                                         </a>
@@ -1544,7 +1557,7 @@
                                                                 <div class="actus_slider">
                                                                     <div class="actus_slider-items">
                                                                         <a class="img" href="/mairie/actualites/covid19-ou-se-faire-depister-marseille" title="lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/carrousel_actualites/public/actualites/2020/08/masque-distribution-vignettepng.png?itok=ZlyE4eMk">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/carrousel_actualites/public/actualites/2020/08/masque-distribution-vignettepng.png?itok=ZlyE4eMk">
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
@@ -1563,7 +1576,7 @@
                                                                     </div>
                                                                     <div class="actus_slider-items">
                                                                         <a class="img" href="/prevention/actualites/la-maison-de-la-justice-et-du-droit-l-ecoute-des-marseillaises-et-des" title="lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/carrousel_actualites/public/contenu/prevention/maison_justice768x529.jpg?itok=mTCRn13i">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/carrousel_actualites/public/contenu/prevention/maison_justice768x529.jpg?itok=mTCRn13i">
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
@@ -1578,7 +1591,7 @@
                                                                     </div>
                                                                     <div class="actus_slider-items">
                                                                         <a class="img" href="/mairie/actualites/le-maire-de-marseille-presente-ses-voeux-aux-marseillaises-et-aux-marseillais" title="lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/carrousel_actualites/public/contenu/mairie/carte_voeux-2021_768x529.jpg?itok=GbPAamCL">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/carrousel_actualites/public/contenu/mairie/carte_voeux-2021_768x529.jpg?itok=GbPAamCL">
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
@@ -1593,7 +1606,7 @@
                                                                     </div>
                                                                     <div class="actus_slider-items">
                                                                         <a class="img" href="/mairie/actualites/suivez-en-direct-le-conseil-municipal-ce-lundi-21-decembre" title="lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/carrousel_actualites/public/contenu/mairie/marianneblason-768x529.jpg?itok=0vx3T4xG">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/carrousel_actualites/public/contenu/mairie/marianneblason-768x529.jpg?itok=0vx3T4xG">
                                                                         </a>
                                                                         <div class="content">
                                                                             <ul class="content_them-list">
@@ -1613,7 +1626,7 @@
                                                                 <div class="actus_content" id="actus_content">
                                                                     <div class="actus_content-item sante">
                                                                         <a class="img" href="/sante/actualites/vaccination-contre-la-covid-19-mode-d-emploi"" title=" lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/remonter_actualit_s/public/contenu/sante/vaccination-768x529.png?itok=EIfcZUBt">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/remonter_actualit_s/public/contenu/sante/vaccination-768x529.png?itok=EIfcZUBt">
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
@@ -1627,7 +1640,7 @@
 
                                                                     <div class="actus_content-item culture">
                                                                         <a class="img" href="/culture/actualites/la-restitution-de-pinede-cassis-d-andre-derain-la-famille-du-resistant-juif-rene"" title=" lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/remonter_actualit_s/public/contenu/culture/musee_cantini/tableau-768x5291.jpg?itok=sxg2GPqQ">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/remonter_actualit_s/public/contenu/culture/musee_cantini/tableau-768x5291.jpg?itok=sxg2GPqQ">
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
@@ -1641,7 +1654,7 @@
 
                                                                     <div class="actus_content-item sante">
                                                                         <a class="img" href="/sante/actualites/vaccination-retour-sur-trois-siecles-d-immunisation"" title=" lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/remonter_actualit_s/public/contenu/sante/vaccination-histoire_768x529.jpg?itok=8xV7MlJQ">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/remonter_actualit_s/public/contenu/sante/vaccination-histoire_768x529.jpg?itok=8xV7MlJQ">
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
@@ -1655,7 +1668,7 @@
 
                                                                     <div class="actus_content-item environnement">
                                                                         <a class="img" href="/environnement/actualites/protection-des-terres-agricoles-dans-marseille-l-exemple-de-sainte-marthe"" title=" lien d'actualité">
-                                                                            <img alt="" src="https://www.marseille.fr/sites/default/files/styles/remonter_actualit_s/public/contenu/environnement/ferme-768x529.jpg?itok=ejnynffG">
+                                                                            <img alt="" src="/assets/sites/default/files/styles/remonter_actualit_s/public/contenu/environnement/ferme-768x529.jpg?itok=ejnynffG">
                                                                         </a>
                                                                         <div class="content">
                                                                             <div class="content_title">
@@ -1683,9 +1696,9 @@
 
                                                     <div class="tout-savoir hasFnd" title="section tout savoir">
                                                         <div class="img">
-                                                            <img src="https://www.marseille.fr/sites/default/files/styles/1280x550/public/contenu/entraidons_nous-paralax-.jpg?itok=op3imt6V" alt="">
+                                                            <img src="/assets/sites/default/files/styles/1280x550/public/contenu/entraidons_nous-paralax-.jpg?itok=op3imt6V" alt="">
                                                         </div>
-                                                        <a class="tout-savoir_content right" style="background-color: #2C62CB" href="https://www.marseille.fr/social/actualites/entraidons-nous" title="« Entraidons-nous » : vous avez du temps ? Ils en ont besoin !" target="_blank">
+                                                        <a class="tout-savoir_content right" style="background-color: #2C62CB" href="/assets/social/actualites/entraidons-nous" title="« Entraidons-nous » : vous avez du temps ? Ils en ont besoin !" target="_blank">
                                                             <h2 class="tout-savoir_content-title" style="color:#FFF">« Entraidons-nous » : vous avez du temps ? Ils en ont besoin !</h2>
                                                             <p class="tout-savoir_content-description" style="color: #FFF">Dans le cadre du mois de la solidarité, la Ville de Marseille renforce son action en faveur des plus démunis et lance la plateforme de solidarité locale &quot;Entraidons-nous&quot; afin de mettre en relation les personnes dans le besoin et les personnes qui proposent leur aide. </p><span style="color: #FFF" class="bouton_niv2">En savoir plus</span>
                                                         </a>
@@ -1843,11 +1856,11 @@
                                             </div>
                                             <div class="field-item odd">
                                                 <div>
-                                                    <div class="cherchez-map" style="background-image: https://www.marseille.fr/sites/default/files/styles/1280x550/public/background-map_0.png?itok=VuyMHTWj" title="section cherchez map">
+                                                    <div class="cherchez-map" style="background-image: /assets/sites/default/files/styles/1280x550/public/background-map_0.png?itok=VuyMHTWj" title="section cherchez map">
                                                         <div class="container">
                                                             <div class="row">
                                                                 <div class="col-md-12">
-                                                                    <div class="cherchez-map_icon"><img src="https://www.marseille.fr/sites/default/files/iconsglobalcarte.png" alt=""></div>
+                                                                    <div class="cherchez-map_icon"><img src="/assets/sites/default/files/iconsglobalcarte.png" alt=""></div>
                                                                     <h2 class="cherchez-map_title">Vous cherchez un équipement dans Marseille ?</h2>
                                                                     <p class="cherchez-map_description">Trouver une école, une piscine, une crèche, un centre de loisirs...
                                                                     </p>
@@ -1952,7 +1965,7 @@
                                                                 <h2 class="app_title">Tout Marseille dans une application !</h2>
                                                                 <a class="app_link bouton_niv2" target="_blank" href="https://play.google.com/store/apps/details?id=fr.marseille.villedemarseille&hl=fr">Google Play</a>
                                                                 <a class="app_link bouton_niv2" target="_blank" href="https://apps.apple.com/fr/app/ville-de-marseille/id1267540404">Apple Store</a>
-                                                                <img class="illuApp" src="https://www.marseille.fr/sites/default/files/styles/bloc_app_/public/app-decoration_0.png?itok=DmmDTQuE" alt=" ">
+                                                                <img class="illuApp" src="/assets/sites/default/files/styles/bloc_app_/public/app-decoration_0.png?itok=DmmDTQuE" alt=" ">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1981,40 +1994,40 @@
                             <h2 class="section_title white-decorqtion">Services</h2>
                             <div class="container c-list-acces">
                                 <ul class="row">
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/actualites/distribution-de-masques-grand-public-par-les-services-de-la-ville" title="Informations Covid">Informations Covid<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/mairie/actualites/distribution-de-masques-grand-public-par-les-services-de-la-ville" title="Informations Covid">Informations Covid<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_masque_4.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/presentation-de-la-maison-de-la-justice-et-du-droit" target="_blank" title="Maison de la Justice & du Droit">Maison de la Justice & du Droit<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/presentation-de-la-maison-de-la-justice-et-du-droit" target="_blank" title="Maison de la Justice & du Droit">Maison de la Justice & du Droit<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icon-maison_droit.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/prevention/bataillon-de-marins-pompiers-de-marseille" title="Bataillon de Marins-Pompiers">Bataillon de Marins-Pompiers<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/prevention/bataillon-de-marins-pompiers-de-marseille" title="Bataillon de Marins-Pompiers">Bataillon de Marins-Pompiers<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_pompier.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/economie/actualites/consommons-local-une-plateforme-internet-pour-accompagner-la-numerisation-des" title="Consommons local">Consommons local<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/economie/actualites/consommons-local-une-plateforme-internet-pour-accompagner-la-numerisation-des" title="Consommons local">Consommons local<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icon-commercant.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/conciliation-et-mediation/mediateur-de-la-ville-de-marseille" title="Médiateur">Médiateur<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/conciliation-et-mediation/mediateur-de-la-ville-de-marseille" title="Médiateur">Médiateur<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_mediateur.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/prevention/s%C3%A9curit%C3%A9-et-pr%C3%A9vention/police-administrative" title="Police administrative">Police administrative<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/prevention/s%C3%A9curit%C3%A9-et-pr%C3%A9vention/police-administrative" title="Police administrative">Police administrative<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_balance.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/prevention/police-municipale" title="Police municipale">Police municipale<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/prevention/police-municipale" title="Police municipale">Police municipale<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_police.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/education/actualites/rentreedescreches" target="_blank" title="Rentrée des crèches">Rentrée des crèches<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/education/actualites/rentreedescreches" target="_blank" title="Rentrée des crèches">Rentrée des crèches<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/picto-creche.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/education/actualites/la-ville-de-marseille-se-mobilise-pleinement-pour-accueillir-les-enfants-et-les" target="_blank" title="Rentrée scolaire">Rentrée scolaire<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/education/actualites/la-ville-de-marseille-se-mobilise-pleinement-pour-accueillir-les-enfants-et-les" target="_blank" title="Rentrée scolaire">Rentrée scolaire<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_rentree-v2.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/education/actualites/rentree-scolaire-preinscriptions-aux-accueils-periscolaires" target="_blank" title="Activités périscolaires">Activités périscolaires<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/education/actualites/rentree-scolaire-preinscriptions-aux-accueils-periscolaires" target="_blank" title="Activités périscolaires">Activités périscolaires<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_periscolaire.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/actualites/point-sur-le-couvre-feu-marseille-et-les-mesures-liees-l-urgence-sanitaire" target="_blank" title="Urgence sanitaire">Urgence sanitaire<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/mairie/actualites/point-sur-le-couvre-feu-marseille-et-les-mesures-liees-l-urgence-sanitaire" target="_blank" title="Urgence sanitaire">Urgence sanitaire<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/deconfinement.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/nos-webcams" target="_blank" title="Nos webcams">Nos webcams<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/nos-webcams" target="_blank" title="Nos webcams">Mon espace privé<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_webcam.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/service-de-consultation-des-listes-electorales#localise" target="_blank" title="Votre bureau de vote">Votre bureau de vote<span class="picto-svg">
@@ -2023,95 +2036,95 @@
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/service-de-consultation-des-listes-electorales#localise" target="_blank" title="Votre situation électorale">Votre situation électorale<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/picto-votre_situation_electorale_0.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/elections/municipales2020/" target="_blank" title="Résultats élections municipales 2020">Résultats élections municipales 2020<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/elections/municipales2020/" target="_blank" title="Résultats élections municipales 2020">Résultats élections municipales 2020<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/elections.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/decouvrir-marseille/actualites/votre-ete-marseille" target="_blank" title="Été marseillais">Été marseillais<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/decouvrir-marseille/actualites/votre-ete-marseille" target="_blank" title="Été marseillais">Été marseillais<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_ete_marseille.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://superminot.marseille.fr/" target="_blank" title="Superminot">Superminot<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_superminot-blanc.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/mer/meteo-des-plages" target="_blank" title="Qualité des eaux de baignade">Qualité des eaux de baignade<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/mer/meteo-des-plages" target="_blank" title="Qualité des eaux de baignade">Qualité des eaux de baignade<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_meteo_plage.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/education/inscriptions-scolaires" title="Inscriptions scolaires">Inscriptions scolaires<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/education/inscriptions-scolaires" title="Inscriptions scolaires">Inscriptions scolaires<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_inscription_scolaire.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/social/actualites/crise-sanitaire-allo-mairie-votre-ecoute-24h7j-pendant-le-confinement" title="Allô Mairie">Allô Mairie<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/social/actualites/crise-sanitaire-allo-mairie-votre-ecoute-24h7j-pendant-le-confinement" title="Allô Mairie">Allô Mairie<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/picto-allomairie_0.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="http://asl.marseille.fr/annuaire" target="_blank" title="Annuaire sports et loisirs">Annuaire sports et loisirs<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_annuaire_sport_et_loisirs.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/node/521" target="_blank" title="Archives des élections">Archives des élections<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/node/521" target="_blank" title="Archives des élections">Archives des élections<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_archives_numerise_0.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="http://marius.marseille.fr/" target="_blank" title="Archives numérisées">Archives numérisées<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_archives_numerise.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/logement-urbanisme/am%C3%A9lioration-de-lhabitat/arretes-de-peril" title="Arrêtés de péril">Arrêtés de péril<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/logement-urbanisme/am%C3%A9lioration-de-lhabitat/arretes-de-peril" title="Arrêtés de péril">Arrêtés de péril<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_peuril.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/mer/nautisme-et-plages/bases-nautiques" title="Bases nautiques">Bases nautiques<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/mer/nautisme-et-plages/bases-nautiques" title="Bases nautiques">Bases nautiques<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_base_nautique.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://billetterie.marseille.fr/" target="_blank" title="Billetterie">Billetterie<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_billeterie.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/service-de-proximite/les-bureaux-municipaux-de-proximite" title="Bureaux municipaux de proximité">Bureaux municipaux de proximité<span class="picto-svg">
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/mairie/service-de-proximite/les-bureaux-municipaux-de-proximite" title="Bureaux municipaux de proximité">Bureaux municipaux de proximité<span class="picto-svg">
                                                 <img src="/assets/sites/default/files/icons_services_bureau_municipaux_proximite.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/papiers-citoyennete/carte-nationale-d-identite-cni" target="_blank" title="Carte nationale d'identité">Carte nationale d'identité<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_carte_identite.svg" />
+                                                <img src="/assets/sites/default/files/icons_services_carte_identite.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/logement-urbanisme/concertations-enquetes-consultations-publiques" title="Concertations et enquêtes publiques">Concertations et enquêtes publiques<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_concertation_enquete.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/logement-urbanisme/concertations-enquetes-consultations-publiques" title="Concertations et enquêtes publiques">Concertations et enquêtes publiques<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_concertation_enquete.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/ecrire-a-monsieur-le-maire" title="Écrire à Monsieur le Maire">Écrire à Monsieur le Maire<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_ecrire_maire.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/ecrire-a-monsieur-le-maire" title="Écrire à Monsieur le Maire">Écrire à Monsieur le Maire<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_ecrire_maire.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/logement-urbanisme/logement/espace-accompagnement-habitat" title="Espace accompagnement habitat">Espace accompagnement habitat<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_et_demarche.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/logement-urbanisme/logement/espace-accompagnement-habitat" title="Espace accompagnement habitat">Espace accompagnement habitat<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_et_demarche.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/demande-d-acte-d-etat-civil" target="_blank" title="État civil">État civil<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_etat_civil.svg" />
+                                                <img src="/assets/sites/default/files/icons_services_etat_civil.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="http://etudiant.marseille.fr/" target="_blank" title="Étudiants">Étudiants<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/illustrator_icons_mairie-85.svg" />
+                                                <img src="/assets/sites/default/files/illustrator_icons_mairie-85.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/papiers-citoyennete/listes-electorales" target="_blank" title="Listes électorales">Listes électorales<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_liste_electorale.svg" />
+                                                <img src="/assets/sites/default/files/icons_services_liste_electorale.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/mairie/emplois/les-offres-d-emplois" title="Offres d'emploi">Offres d'emploi<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_offre_emploi-blanc.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/mairie/emplois/les-offres-d-emplois" title="Offres d'emploi">Offres d'emploi<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_offre_emploi-blanc.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://sodexo-marseille.espace-famille.net/" target="_blank" title="Paiement cantine">Paiement cantine<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_paiement_cantine.svg" />
+                                                <img src="/assets/sites/default/files/icons_services_paiement_cantine.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/papiers-citoyennete/passeport" target="_blank" title="Passeport">Passeport<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_passeport.svg" />
+                                                <img src="/assets/sites/default/files/icons_services_passeport.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/education/petite-enfance/petite-enfance-presentation" title="Petite enfance">Petite enfance<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_petite_enfance.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/education/petite-enfance/petite-enfance-presentation" title="Petite enfance">Petite enfance<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_petite_enfance.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/sports-loisirs/equipements-sportifs/piscines-municipales" title="Piscines">Piscines<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_piscine-blanc.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/sports-loisirs/equipements-sportifs/piscines-municipales" title="Piscines">Piscines<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_piscine-blanc.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="https://eservices.marseille.fr/allombmdp" target="_blank" title="Rendez-vous passeport - CNI">Rendez-vous passeport - CNI<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_rdv_passeport_cni_0.svg" />
+                                                <img src="/assets/sites/default/files/icons_rdv_passeport_cni_0.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/decouvrir-marseille/la-revue-marseille/presentation" title="Revue Marseille">Revue Marseille<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_revue.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/decouvrir-marseille/la-revue-marseille/presentation" title="Revue Marseille">Revue Marseille<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_revue.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/node/249" target="_blank" title="Services et démarches">Services et démarches<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_demarche.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/node/249" target="_blank" title="Services et démarches">Services et démarches<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_demarche.svg" />
                                             </span></a></li>
-                                    <li class="col-4"><a class="boutton_acces-rapides" href="https://www.marseille.fr/se-deplacer/actualites/coronavirus-stationnement-et-circulation" target="_blank" title="Stationnement">Stationnement<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/icons_services_parking.svg" />
+                                    <li class="col-4"><a class="boutton_acces-rapides" href="/assets/se-deplacer/actualites/coronavirus-stationnement-et-circulation" target="_blank" title="Stationnement">Stationnement<span class="picto-svg">
+                                                <img src="/assets/sites/default/files/icons_services_parking.svg" />
                                             </span></a></li>
                                     <li class="col-4"><a class="boutton_acces-rapides" href="http://marchespublics.mairie-marseille.fr" target="_blank" title="Marchés Publics">Marchés Publics<span class="picto-svg">
-                                                <img src="https://www.marseille.fr/sites/default/files/handshake_1.svg" />
+                                                <img src="/assets/sites/default/files/handshake_1.svg" />
                                             </span></a></li>
                                 </ul>
                             </div>
@@ -2125,13 +2138,13 @@
                                     <li class="goToTop hide-on-discktop" title="Retour en haut"><i class="icon-icons__fleche"></i></li>
                                     <li class="footer-col-1" title="logos footer">
                                         <ul class="flex-star-center">
-                                            <li><a class="footer_logo" href="http://www.marseille.fr" target="_blank title=" Marseille.fr"><img src="https://www.marseille.fr/sites/default/files/logo_ville_de_marseille.png"></a></li>
+                                            <li><a class="footer_logo" href="http://www.marseille.fr" target="_blank title=" Marseille.fr"><img src="/assets/sites/default/files/logo_ville_de_marseille.png"></a></li>
 
-                                            <li><a class="footer_logo v2" href="http://www.marseille-tourisme.com/fr/" target="_blank" title="Office de Tourisme"><img src="https://www.marseille.fr/sites/default/files/office_du_toursime_marseille.png"></a></li>
+                                            <li><a class="footer_logo v2" href="http://www.marseille-tourisme.com/fr/" target="_blank" title="Office de Tourisme"><img src="/assets/sites/default/files/office_du_toursime_marseille.png"></a></li>
 
-                                            <li class="hide-on-mobile"><a class="footer_logo v2" href="https://www.sortiramarseille.fr" target="_blank" title="Sortir à Marseille"><img src="https://www.marseille.fr/sites/default/files/sortir_a_marseille.png"></a></li>
+                                            <li class="hide-on-mobile"><a class="footer_logo v2" href="https://www.sortiramarseille.fr" target="_blank" title="Sortir à Marseille"><img src="/assets/sites/default/files/sortir_a_marseille.png"></a></li>
 
-                                            <li class="hide-on-mobile"><a class="footer_logo v2" href="" target="_blank" title="#NousSommesMarseille"><img src="https://www.marseille.fr/sites/default/files/nous_sommes_marseille.png"></a></li>
+                                            <li class="hide-on-mobile"><a class="footer_logo v2" href="" target="_blank" title="#NousSommesMarseille"><img src="/assets/sites/default/files/nous_sommes_marseille.png"></a></li>
                                             <li class="hide-on-discktop"><a class="footer_allo" href="tel:3013" title="Téléphone Allô-Mairie"><img src="/sites/default/files/allomairie-footer-mobile.png" alt="Téléphone Allô-Mairie"></a></li>
                                         </ul>
                                     </li>
@@ -2162,7 +2175,7 @@
                                                     <li class="footer_items-content"><a href="/decouvrir-marseille" title="Histoire de Marseille">Histoire de Marseille</a></li>
                                                     <li class="footer_items-content"><a href="http://www.marseille-tourisme.com/fr/" title="Office du tourisme" target="_blank">Office du tourisme</a></li>
                                                     <li class="footer_items-content"><a href="https://www.sortiramarseille.fr" title="Sortir à Marseille" target="_blank">Sortir à Marseille</a></li>
-                                                    <li class="footer_items-content"><a href="/nos-webcams" title="Nos webcams">Nos webcams</a></li>
+                                                    <li class="footer_items-content"><a href="/nos-webcams" title="Nos webcams">Mon espace privé</a></li>
                                                 </ul>
                                         </ul>
                                     </li>
@@ -2187,8 +2200,8 @@
                                 </ul>
                             </div>
                             <ul class="footer_bottom" title="footer bottom">
-                                <li class="footer_bottom-items"><a href="https://www.marseille.fr/ecrire-a-monsieur-le-maire" title="Écrire à Monsieur le maire" target="_blank">Écrire à Monsieur le maire</a></li>
-                                <li class="footer_bottom-items"><a href="https://www.marseille.fr/vous-etes-un-particulier-contacter-la-ville-de-marseille" title="Saisine par voie électronique">Saisine par voie électronique</a></li>
+                                <li class="footer_bottom-items"><a href="/assets/ecrire-a-monsieur-le-maire" title="Écrire à Monsieur le maire" target="_blank">Écrire à Monsieur le maire</a></li>
+                                <li class="footer_bottom-items"><a href="/assets/vous-etes-un-particulier-contacter-la-ville-de-marseille" title="Saisine par voie électronique">Saisine par voie électronique</a></li>
                                 <li class="footer_bottom-items"><a href="http://www.marseille.fr/contacter-le-webmestre" title="Contacter le webmestre" target="_blank">Contacter le webmestre</a></li>
                                 <li class="footer_bottom-items"><a href="/sitemap" title="Plan du site">Plan du site</a></li>
                                 <li class="footer_bottom-items"><a href="http://www.marseille.fr/mentions-legales" title="Mentions légales">Mentions légales</a></li>
@@ -2247,7 +2260,7 @@
                             ga('create', 'UA-4661590-1', 'auto');
                             ga('send', 'pageview');
                         </script>
-                        <script src="https://www.marseille.fr/sitevdm/js/cookie-alert.js"></script>
+                        <script src="/assets/sitevdm/js/cookie-alert.js"></script>
                     </div>
                 </div>
                 <!-- END .region-copyright-->
