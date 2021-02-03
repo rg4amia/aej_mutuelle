@@ -1712,7 +1712,7 @@
 
                                                                         <li class="culture">
                                                                             <h3>
-                                                                                <a href="/culture" target="" data-bbrr="node/4979"> Siege <span class="picto-svg">
+                                                                                <a href="/culture" target="" data-bbrr="node/4979"> SIEGE <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_culture.svg') }}" alt="Culture">
                                                                                     </span>
                                                                                 </a>
@@ -1720,7 +1720,7 @@
                                                                         </li>
                                                                         <li class="decouvrir-marseille">
                                                                             <h3>
-                                                                                <a href="/decouvrir-marseille" target="" data-bbrr="node/4988"> Yopougon
+                                                                                <a href="/decouvrir-marseille" target="" data-bbrr="node/4988"> YOPOUGON
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_decouvrir_marseille.svg') }}" alt="Découvrir Marseille">
                                                                                     </span>
@@ -1729,7 +1729,7 @@
                                                                         </li>
                                                                         <li class="economie">
                                                                             <h3>
-                                                                                <a href="/economie" target="" data-bbrr="node/4984"> Abobo
+                                                                                <a href="/economie" target="" data-bbrr="node/4984"> ABOBO
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/test2.svg') }}" alt="Economie">
                                                                                     </span>
@@ -1738,7 +1738,7 @@
                                                                         </li>
                                                                         <li class="education">
                                                                             <h3>
-                                                                                <a href="/education" target="" data-bbrr="node/5000"> Treichville <span class="picto-svg">
+                                                                                <a href="/education" target="" data-bbrr="node/5000"> DESSE <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/picto-education-noir_0.svg') }}" alt="Education">
                                                                                     </span>
                                                                                 </a>
@@ -1746,7 +1746,7 @@
                                                                         </li>
                                                                         <li class="environnement">
                                                                             <h3>
-                                                                                <a href="/environnement" target="" data-bbrr="node/4989"> Bouaké <span class="picto-svg">
+                                                                                <a href="/environnement" target="" data-bbrr="node/4989"> DPF <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_environnement.svg') }}" alt="Environnement">
                                                                                     </span>
                                                                                 </a>
@@ -1754,7 +1754,7 @@
                                                                         </li>
                                                                         <li class="e-services">
                                                                             <h3>
-                                                                                <a href="/e-services" target="" data-bbrr="node/5001"> San-Pedro <span class="picto-svg">
+                                                                                <a href="/e-services" target="" data-bbrr="node/5001">DAICG <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_service_en_ligne.svg') }}" alt="E-services">
                                                                                     </span>
                                                                                 </a>
@@ -1762,7 +1762,7 @@
                                                                         </li>
                                                                         <li class="international">
                                                                             <h3>
-                                                                                <a href="/international" target="" data-bbrr="node/5003"> Yamoussoukro
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> YOPOUGON
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
                                                                                     </span>
@@ -1771,7 +1771,7 @@
                                                                         </li>
                                                                         <li class="logement-urbanisme">
                                                                             <h3>
-                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991"> Agence X
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991">TREICHVILLE
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
                                                                                     </span>
@@ -1780,7 +1780,151 @@
                                                                         </li>
                                                                         <li class="mairie">
                                                                             <h3>
-                                                                                <a href="/mairie" target="" data-bbrr="node/4995"> Agence Y
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">ABOBO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                         <li class="international">
+                                                                            <h3>
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> PRESTIGE
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="logement-urbanisme">
+                                                                            <h3>
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991">ABENGOUROU
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="mairie">
+                                                                            <h3>
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">ABOISSO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                         <li class="international">
+                                                                            <h3>
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> BEOUMI
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="logement-urbanisme">
+                                                                            <h3>
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991">BOUAKE
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="mairie">
+                                                                            <h3>
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">DALOA
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                         <li class="international">
+                                                                            <h3>
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> DAOUKRO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="logement-urbanisme">
+                                                                            <h3>
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991">DIMBOKRO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="mairie">
+                                                                            <h3>
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">GAGNOA
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                         <li class="international">
+                                                                            <h3>
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> GUIGLO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="logement-urbanisme">
+                                                                            <h3>
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991">KOROGHO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="mairie">
+                                                                            <h3>
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">MAN
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                         <li class="mairie">
+                                                                            <h3>
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">ODIENNE
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                         <li class="international">
+                                                                            <h3>
+                                                                                <a href="/international" target="" data-bbrr="node/5003"> SAN PEDRO
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_international.svg') }}" alt="International">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="logement-urbanisme">
+                                                                            <h3>
+                                                                                <a href="/logement-et-urbanisme" target="" data-bbrr="node/4991">SOUBRE
+                                                                                    <span class="picto-svg">
+                                                                                        <img src="{{ asset('assets/sites/default/files/icons_home.svg') }}" alt="Logement-Urbanisme">
+                                                                                    </span>
+                                                                                </a>
+                                                                            </h3>
+                                                                        </li>
+                                                                        <li class="mairie">
+                                                                            <h3>
+                                                                                <a href="/mairie" target="" data-bbrr="node/4995">YAMOUSSOUKRO
                                                                                     <span class="picto-svg">
                                                                                         <img src="{{ asset('assets/sites/default/files/icons_mairie.svg') }}" alt="Mairie">
                                                                                     </span>
