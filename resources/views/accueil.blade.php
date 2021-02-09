@@ -1048,11 +1048,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded sante menu-item--expanded" aria-expanded="false">
-                                            <a href="/sante" class="expanded menu-mlid-4028 menu-fields-menu-link">Santé <span class="picto-svg">
+                                            <a href="/sante" class="expanded menu-mlid-4028 menu-fields-menu-link">Les Nouvelles de l'Agence <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_sante.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_sante_0.svg') }}" /> </span><span>Santé</span><a href="/sante" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_sante_0.svg') }}" /> </span><span>Les Nouvelles de l'Agence</span><a href="/sante" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3388 menu-fields-menu-link">Soins de santé <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -1094,11 +1094,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded social menu-item--expanded" aria-expanded="false">
-                                            <a href="/social" class="expanded menu-mlid-4029 menu-fields-menu-link">Social <span class="picto-svg">
+                                            <a href="/social" class="expanded menu-mlid-4029 menu-fields-menu-link">Agent Et Famille <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-social-noir.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-social-plein-noir_0.svg') }}" /> </span><span>Social</span><a href="/social" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/picto-social-plein-noir_0.svg') }}" /> </span><span>Agent Et Famille</span><a href="/social" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class=""><a href="/social/contrat-de-ville" class="first collapsed menu-mlid-3399 menu-fields-menu-link">Contrat de ville <span class="picto-svg"></span></a></li>
                                                     <li class="menu-item--expanded"><a href="#" class="expanded menu-mlid-3389 menu-fields-menu-link">Personnes handicapées <span class="picto-svg"></span></a>
@@ -1145,11 +1145,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded sports-loisirs menu-item--expanded" aria-expanded="false">
-                                            <a href="/sports-et-loisirs" class="expanded menu-mlid-3752 menu-fields-menu-link">Sports & Loisirs <span class="picto-svg">
+                                            <a href="/sports-et-loisirs" class="expanded menu-mlid-3752 menu-fields-menu-link">Sondage<span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_sport.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_sport_plein.svg') }}" /> </span><span>Sports & Loisirs</span><a href="/sports-et-loisirs" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_sport_plein.svg') }}" /> </span><span>Sondage</span><a href="/sports-et-loisirs" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class="menu-item--expanded"><a href="#" class="first expanded menu-mlid-3441 menu-fields-menu-link">Équipements de loisirs <span class="picto-svg"></span></a>
                                                         <div class="sub-menu" aria-labelledby="navbarDropdown1">
@@ -1196,11 +1196,11 @@
                                             </div>
                                         </li>
                                         <li class="menu-item--expanded se-deplacer menu-item--expanded" aria-expanded="false">
-                                            <a href="/se-deplacer" class="expanded menu-mlid-3265 menu-fields-menu-link">Se déplacer <span class="picto-svg">
+                                            <a href="/se-deplacer" class="expanded menu-mlid-3265 menu-fields-menu-link">Du passé au présent <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_transport.svg') }}" /></span></a>
                                             <div class="sub-menu" aria-labelledby="navbarDropdown1">
                                                 <div class="back-menu">Menu principal</div>
-                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_transport_plein.svg') }}" /> </span><span>Se déplacer</span><a href="/se-deplacer" title="Voir tout">Voir tout</a></div>
+                                                <div class="label-menu"><span class="picto-svg"> <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_transport_plein.svg') }}" /> </span><span>Du passé au présent</span><a href="/se-deplacer" title="Voir tout">Voir tout</a></div>
                                                 <ul class="menu menu-1">
                                                     <li class=""><a href="/se-deplacer/se-deplacer-dans-marseille-chacun-son-profil" class="first leaf menu-mlid-3537 menu-fields-menu-link">À chacun son profil <span class="picto-svg"></span></a></li>
                                                     <li class="menu-item--expanded"><a href="#" class="expanded menu-mlid-3296 menu-fields-menu-link">Alternatives à la voiture en ville <span class="picto-svg"></span></a>
@@ -1249,39 +1249,10 @@
                                             </div>
                                         </li>
                                         <li class="" aria-expanded="false">
-                                            <a href="/actualites" class="last leaf menu-mlid-16822 menu-fields-menu-link">Actualités <span class="picto-svg">
+                                            <a href="/actualites" class="last leaf menu-mlid-16822 menu-fields-menu-link">Nos Partenaires <span class="picto-svg">
                                                     <img typeof="foaf:Image" alt="" src="{{ asset('assets/sites/default/files/icons_actualites.svg') }}" />
                                                 </span> <span class="picto-svg"></span></a></li>
                                     </ul>
-                                    <div class="menu-more-link">
-                                        <div class="site-extern">
-                                            <div class="title-site-extern">Les sites</div>
-                                            <div class="c-site-extern">
-                                                <a href="https://superminot.marseille.fr/maelisportail/module/home/" target="_blank">Superminot</a>
-                                                <a href="https://www.bmvr.marseille.fr/" target="_blank">Bibliothèques municipales</a>
-                                                <a href="https://musees.marseille.fr/" target="_blank">Musées de Marseille</a>
-                                                <a href="https://www.sortiramarseille.fr/" target="_blank">Sortir à Marseille</a>
-                                                <a href="http://opera.marseille.fr/" target="_blank">Opéra municipal</a>
-                                                <a href="http://odeon.marseille.fr/" target="_blank">Théâtre de l&#039;Odéon</a>
-                                            </div>
-
-                                            <div class="c-nous-suivre">
-                                                <div class="title-nous-suivre">Nous suivre</div>
-                                                <div class="c-rs">
-                                                    <ul>
-                                                        <li><a target="_blank" href="https://twitter.com/marseille" title="Twitter" target="_blank"><span class="hiddenLabel">Twitter</span><i class="icon-icons__twitter"></i></a></li>
-                                                        <li><a target="_blank" href="https://facebook.com/marseilleville/" title="Facebook" target="_blank"><span class="hiddenLabel">Facebook</span><i class="icon-icons__facebook"></i></a></li>
-                                                        <li><a target="_blank" href="https://www.instagram.com/villemarseille/" title="Instagram" target="_blank"><span class="hiddenLabel">Instagram</span><i class="icon-icons__instagram"></i></a></li>
-                                                        <li><a target="_blank" href="https://www.youtube.com/user/VilledeMarseille" title="Youtube" target="_blank"><span class="hiddenLabel">Youtube</span><i class="icon-icons__youtube"></i></a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="c-webcams">
-                                                <div class="wrraper-webcams"><i class="icon-icons__webcam"></i></div>
-                                                <div class="title-webcams"> <a href="nos-webcams">Webcams</a></div>
-                                                <div class="text-webcams">7 caméras vous permettent d'apprécier quelques uns des plus beaux endroits de la ville.</div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </nav>
                             </div>
